@@ -1,0 +1,815 @@
+.landing-container {
+  min-height: 100vh;
+}
+.landing-landing {
+  width: 1280px;
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.landing-vector {
+  top: 373px;
+  left: 1332px;
+  width: 648px;
+  height: 721px;
+  position: absolute;
+}
+.landing-textand-button {
+  top: 80px;
+  left: 64px;
+  width: 568px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+}
+.landing-frame52 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 24px;
+  flex-direction: column;
+}
+.landing-text {
+  color: var(--dl-color-colors_secondary-secondary7);
+  width: 568px;
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 26px;
+  margin-right: 0;
+  margin-bottom: 8px;
+}
+.landing-text02 {
+  color: rgba(69, 69, 69, 1);
+  width: 568px;
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 52px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.landing-text03 {
+  color: var(--dl-color-colors_black-black9);
+}
+.landing-text04 {
+  color: var(--dl-color-colors_secondary-secondary7);
+}
+.landing-frame53 {
+  display: flex;
+  padding: 0 97px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.landing-text06 {
+  color: var(--dl-color-colors_black-black9);
+  width: 373px;
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 26px;
+  margin-right: 0;
+  margin-bottom: 24px;
+}
+.landing-button {
+  display: flex;
+  padding: 10px 18px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.0430000014603138);
+  align-items: center;
+  border-color: rgba(88, 166, 180, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-colors_secondary-secondary7);
+}
+.landing-text08 {
+  color: var(--dl-color-colors_white-white1);
+  height: auto;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 22px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.landing-frame31 {
+  top: 382px;
+  left: 715px;
+  width: 471px;
+  height: 400px;
+  position: absolute;
+}
+.landing-group10 {
+  top: 655px;
+  left: 1157px;
+  width: 58px;
+  height: 58px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.landing-frame58 {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.landing-frame54 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing-ellipse10 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse11 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse15 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse12 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse13 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse14 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-frame55 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing-ellipse1001 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1101 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1501 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1201 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1301 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1401 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-frame56 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing-ellipse1002 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1102 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1502 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1202 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1302 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1402 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-frame57 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing-ellipse1003 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1103 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1203 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1303 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1403 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1503 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-frame581 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing-ellipse1004 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1104 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1504 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1204 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1304 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1404 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-frame59 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.landing-ellipse1005 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1105 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1505 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1205 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1305 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1405 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-unsplash279x--hym-pyy {
+  top: 73px;
+  left: 524px;
+  width: 607px;
+  height: 759px;
+  position: absolute;
+  border-color: transparent;
+}
+.landing-group101 {
+  top: 106px;
+  left: 648px;
+  width: 58px;
+  height: 58px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.landing-frame582 {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.landing-frame541 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing-ellipse1006 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1106 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1506 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1206 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1306 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1406 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-frame551 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing-ellipse1007 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1107 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1507 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1207 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1307 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1407 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-frame561 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing-ellipse1008 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1108 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1508 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1208 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1308 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1408 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-frame571 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing-ellipse1009 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1109 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1209 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1309 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1409 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1509 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-frame583 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing-ellipse1010 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1110 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1510 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1210 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1310 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1410 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-frame591 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.landing-ellipse1011 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1111 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1511 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1211 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1311 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing-ellipse1411 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing-rectangle13 {
+  top: 626px;
+  left: 64px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 0 0 100px;
+}
+.landing-indicator {
+  top: 384px;
+  left: 1200px;
+  width: 16px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.landing-ellipse9 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 8px;
+}
+.landing-ellipse91 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 8px;
+}
+.landing-ellipse92 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-color: transparent;
+}

@@ -1,0 +1,102 @@
+.navbanner {
+  width: 100%;
+  display: flex;
+  padding: 16px 112px 16px 64px;
+  border-color: transparent;
+  border: 1px solid black;
+  background-color: var(--bg-white);
+  /* position: fixed;
+  z-index: 999999999999999999999; */
+  justify-content: space-between;
+}
+
+.navbanner-logo {
+  width: 160px;
+  height: 38px;
+  display: flex;
+  align-items: flex-start;
+  border-color: transparent;
+  background-color: var(--bg-black-2);
+}
+.navbanner-right {
+  /* border: 1px solid blue; */
+  display: flex;
+}
+
+.navbanner-text {
+  color: var(--text-black);
+  height: auto;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 22px;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.navbanner-button {
+  display: flex;
+  padding: 8px 24px;
+  overflow: hidden;
+  margin-right: 12px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-white);
+  border: none;
+}
+
+.navbanner-button2 {
+  display: flex;
+  padding: 8px 16px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.0430000014603138);
+  align-items: center;
+  border-color: rgba(55, 39, 114, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: var(--bg-purple);
+}
+.navbanner-text2 {
+  color: var(--bg-white);
+  height: auto;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 22px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .navbanner-right {
+    display: flex;
+  }
+
+  .navbanner {
+    padding: 16px 32px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .navbanner-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbanner {
+    padding: 16px 27px;
+  }
+}

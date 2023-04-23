@@ -1,0 +1,13 @@
+:root {
+  --text-black: rgba(69, 69, 69, 1);
+  --text-black-2: rgba(38, 38, 38, 1);
+  --bg-black-2: rgba(240, 240, 240, 1);
+  --bg-white: rgba(255, 255, 255, 1);
+  --bg-purple: rgba(55, 39, 114, 1);
+  --dark-bg-purple: rgba(25, 18, 51, 1);
+  --dark-bg-purple-2: rgba(55, 39, 114, 1);
+  --bg-pink: rgba(254, 244, 234, 1);
+  --text01: 32px;
+  --text02: 16px;
+  --text03: 52px;
+}

@@ -1,0 +1,2087 @@
+.landing1-container {
+  min-height: 100vh;
+}
+.landing1-landing1 {
+  width: 1280px;
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.landing1-frame73 {
+  top: 602px;
+  left: 1155px;
+  width: 60px;
+  height: 163.00001525878906px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.landing1-group22 {
+  top: -4.103195501239482e-21px;
+  left: 27.99553108215332px;
+  width: 32.006874084472656px;
+  height: 163px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.landing1-vector {
+  top: 125px;
+  left: 0.003286616911282181px;
+  width: 32px;
+  height: 38px;
+  position: absolute;
+}
+.landing1-vector01 {
+  top: 145px;
+  left: 0.0022355956007231725px;
+  width: 14px;
+  height: 17px;
+  opacity: 0.7;
+  position: absolute;
+}
+.landing1-vector02 {
+  top: 125px;
+  left: 7.001058683066731px;
+  width: 25px;
+  height: 38px;
+  position: absolute;
+}
+.landing1-vector03 {
+  top: 126px;
+  left: 0.001056671142578125px;
+  width: 32px;
+  height: 37px;
+  opacity: 0.5;
+  position: absolute;
+}
+.landing1-vector04 {
+  top: 128px;
+  left: 12.007814544951543px;
+  width: 8px;
+  height: 1px;
+  position: absolute;
+}
+.landing1-vector05 {
+  top: 135px;
+  left: 6.007814463069735px;
+  width: 6px;
+  height: 5px;
+  position: absolute;
+}
+.landing1-vector06 {
+  top: 125px;
+  left: 0.007812499801730155px;
+  width: 32px;
+  height: 38px;
+  position: absolute;
+  box-shadow: 0px 1.4132105112075806px 1.4132105112075806px 0px
+    rgba(0, 0, 0, 0.25);
+}
+.landing1-vector07 {
+  top: 117px;
+  left: 14.00781474174255px;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+}
+.landing1-vector08 {
+  top: 2.2737367544323206e-13px;
+  left: 16.007810592651367px;
+  width: 0px;
+  height: 118px;
+  position: absolute;
+}
+.landing1-vector09 {
+  top: 121px;
+  left: 11.007810335298927px;
+  width: 10px;
+  height: 7px;
+  position: absolute;
+}
+.landing1-vector10 {
+  top: 121px;
+  left: 11.007810335298927px;
+  width: 9px;
+  height: 1px;
+  position: absolute;
+}
+.landing1-vector11 {
+  top: 121px;
+  left: 11.007810335298927px;
+  width: 10px;
+  height: 7px;
+  position: absolute;
+}
+.landing1-vector12 {
+  top: 125px;
+  left: 14.007814511924153px;
+  width: 5px;
+  height: 2px;
+  position: absolute;
+}
+.landing1-group23 {
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  height: 76px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.landing1-vector13 {
+  top: 46px;
+  left: 0px;
+  width: 28px;
+  height: 30px;
+  position: absolute;
+}
+.landing1-vector14 {
+  top: 62px;
+  left: 0px;
+  width: 12px;
+  height: 14px;
+  opacity: 0.7;
+  position: absolute;
+}
+.landing1-vector15 {
+  top: 45px;
+  left: 6px;
+  width: 22px;
+  height: 31px;
+  position: absolute;
+}
+.landing1-vector16 {
+  top: 46px;
+  left: 0px;
+  width: 28px;
+  height: 30px;
+  opacity: 0.5;
+  position: absolute;
+}
+.landing1-vector17 {
+  top: 48px;
+  left: 11px;
+  width: 7px;
+  height: 1px;
+  position: absolute;
+}
+.landing1-vector18 {
+  top: 54px;
+  left: 5px;
+  width: 5px;
+  height: 4px;
+  position: absolute;
+}
+.landing1-vector19 {
+  top: 46px;
+  left: 0px;
+  width: 28px;
+  height: 30px;
+  position: absolute;
+}
+.landing1-vector20 {
+  top: 39px;
+  left: 12px;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+}
+.landing1-vector21 {
+  top: 0px;
+  left: 14px;
+  width: 0px;
+  height: 40px;
+  position: absolute;
+}
+.landing1-vector22 {
+  top: 42px;
+  left: 10px;
+  width: 9px;
+  height: 5px;
+  position: absolute;
+}
+.landing1-vector23 {
+  top: 42px;
+  left: 10px;
+  width: 8px;
+  height: 1px;
+  position: absolute;
+}
+.landing1-vector24 {
+  top: 42px;
+  left: 10px;
+  width: 9px;
+  height: 5px;
+  position: absolute;
+}
+.landing1-vector25 {
+  top: 45px;
+  left: 12px;
+  width: 4px;
+  height: 2px;
+  position: absolute;
+}
+.landing1-vector26 {
+  top: -231px;
+  left: 27.25px;
+  width: 564px;
+  height: 610px;
+  position: absolute;
+}
+.landing1-text {
+  top: 464px;
+  left: 453px;
+  color: var(--dl-color-colors_black-black9);
+  width: 568px;
+  height: auto;
+  position: absolute;
+  align-self: stretch;
+  text-align: left;
+  line-height: 26px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.landing1-frame72 {
+  top: 80px;
+  left: 64px;
+  width: 763px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.landing1-text02 {
+  color: var(--dl-color-colors_tertiary1-tertiary19);
+  width: 568px;
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 26px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+.landing1-text04 {
+  color: rgba(69, 69, 69, 1);
+  width: 763px;
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 52px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.landing1-text05 {
+  color: var(--dl-color-colors_black-black9);
+}
+.landing1-text06 {
+  color: var(--dl-color-colors_secondary-secondary6);
+}
+.landing1-text07 {
+  color: var(--dl-color-colors_black-black9);
+}
+.landing1-text08 {
+  color: var(--dl-color-colors_primary-primary6);
+}
+.landing1-button {
+  top: 366px;
+  left: 64px;
+  width: 111px;
+  display: flex;
+  padding: 8px 16px;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.0430000014603138);
+  align-items: center;
+  border-color: rgba(55, 39, 114, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-colors_primary-primary6);
+}
+.landing1-text10 {
+  color: var(--dl-color-colors_white-white1);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: 22px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.landing1-vector27 {
+  top: 842.34619140625px;
+  left: 1452.1455078125px;
+  width: 377px;
+  height: 451px;
+  position: absolute;
+}
+.landing1-rectangle13 {
+  top: 626px;
+  left: 64px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 0 0 100px;
+}
+.landing1-frame75 {
+  top: 474px;
+  left: 166px;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 8px;
+  background-color: var(--dl-color-colors_tertiary2-tertiary24);
+}
+.landing1-unsplash-m-xloxsg-gw {
+  top: 4.547473508864641e-13px;
+  left: -119.99999237060547px;
+  width: 360px;
+  height: 240px;
+  position: absolute;
+  border-color: transparent;
+}
+.landing1-group10 {
+  top: 379px;
+  left: 379px;
+  width: 58px;
+  height: 118px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.landing1-frame74 {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.landing1-frame58 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-frame54 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing1-ellipse10 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse11 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse15 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse12 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse13 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse14 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing1-frame55 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing1-ellipse1001 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1101 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1501 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1201 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1301 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1401 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing1-frame56 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing1-ellipse1002 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1102 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1502 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1202 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1302 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1402 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing1-frame57 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing1-ellipse1003 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1103 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1203 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1303 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1403 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1503 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing1-frame581 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing1-ellipse1004 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1104 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1504 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1204 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1304 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1404 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing1-frame59 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.landing1-ellipse1005 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1105 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1505 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1205 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1305 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1405 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing1-frame591 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.landing1-frame541 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing1-ellipse1006 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1106 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1506 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1206 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1306 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1406 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing1-frame551 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing1-ellipse1007 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1107 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1507 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1207 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1307 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1407 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing1-frame561 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing1-ellipse1008 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1108 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1508 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1208 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1308 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1408 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing1-frame571 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing1-ellipse1009 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1109 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1209 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1309 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1409 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1509 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing1-frame582 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 2px;
+  flex-direction: column;
+}
+.landing1-ellipse1010 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1110 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1510 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1210 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1310 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1410 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing1-frame592 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.landing1-ellipse1011 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1111 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1511 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1211 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1311 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 2px;
+}
+.landing1-ellipse1411 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-color: transparent;
+}
+.landing1-frame76 {
+  top: 80px;
+  left: 880px;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 8px;
+  background-color: var(--dl-color-colors_tertiary2-tertiary24);
+}
+.landing1-unsplash--kdj-kxnt-h8 {
+  top: 0px;
+  left: -120px;
+  width: 360px;
+  height: 240px;
+  position: absolute;
+  border-color: transparent;
+}
+.landing1-indicator {
+  top: 384px;
+  left: 1200px;
+  width: 16px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.landing1-ellipse9 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 8px;
+}
+.landing1-ellipse91 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 8px;
+}
+.landing1-ellipse92 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-color: transparent;
+}
+
+@media screen and (max-width: 500px) {
+  .android-small2-container {
+    min-height: 100vh;
+  }
+  .android-small2-android-small2 {
+    width: 100%;
+    height: 969px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .android-small2-frame73 {
+    top: 671.0859375px;
+    left: 286.484375px;
+    width: 48px;
+    height: 132px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .android-small2-group22 {
+    top: -0.00007724761962890625px;
+    left: 22.403940200805664px;
+    width: 25.61127471923828px;
+    height: 132.00018310546875px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .android-small2-vector {
+    top: 101.22677612304688px;
+    left: 0.0009764585309355311px;
+    width: 26px;
+    height: 31px;
+    position: absolute;
+  }
+  .android-small2-vector01 {
+    top: 117.42343139648438px;
+    left: 0.0009764725751928438px;
+    width: 11px;
+    height: 14px;
+    opacity: 0.7;
+    position: absolute;
+  }
+  .android-small2-vector02 {
+    top: 101.22677612304688px;
+    left: 5.6009776304315935px;
+    width: 20px;
+    height: 31px;
+    position: absolute;
+  }
+  .android-small2-vector03 {
+    top: 102.03700256347656px;
+    left: 0.000976472804939732px;
+    width: 26px;
+    height: 30px;
+    opacity: 0.5;
+    position: absolute;
+  }
+  .android-small2-vector04 {
+    top: 103.65673828125px;
+    left: 9.605820653360567px;
+    width: 6px;
+    height: 1px;
+    position: absolute;
+  }
+  .android-small2-vector05 {
+    top: 109.3254623413086px;
+    left: 4.809055139477433px;
+    width: 5px;
+    height: 4px;
+    position: absolute;
+  }
+  .android-small2-vector06 {
+    top: 101.22677612304688px;
+    left: 0.012283071952701619px;
+    width: 26px;
+    height: 31px;
+    position: absolute;
+    box-shadow: 0px 1.145073413848877px 1.145073413848877px 0px
+      rgba(0, 0, 0, 0.25);
+  }
+  .android-small2-vector07 {
+    top: 94.74855041503906px;
+    left: 11.212292347090504px;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+  }
+  .android-small2-vector08 {
+    top: 0px;
+    left: 12.807442665100098px;
+    width: 0px;
+    height: 96px;
+    position: absolute;
+  }
+  .android-small2-vector09 {
+    top: 97.9880142211914px;
+    left: 8.802591984657038px;
+    width: 8px;
+    height: 6px;
+    position: absolute;
+  }
+  .android-small2-vector10 {
+    top: 97.9880142211914px;
+    left: 8.802591984657038px;
+    width: 7px;
+    height: 1px;
+    position: absolute;
+  }
+  .android-small2-vector11 {
+    top: 97.9880142211914px;
+    left: 8.802591984657038px;
+    width: 8px;
+    height: 6px;
+    position: absolute;
+  }
+  .android-small2-vector12 {
+    top: 101.22677612304688px;
+    left: 11.212292403991164px;
+    width: 4px;
+    height: 2px;
+    position: absolute;
+  }
+  .android-small2-group23 {
+    top: -0.00007724761962890625px;
+    left: 0.005950927734375px;
+    width: 22.399826049804688px;
+    height: 61.54600524902344px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .android-small2-vector13 {
+    top: 37.25152587890625px;
+    left: -1.6479873021779667e-17px;
+    width: 22px;
+    height: 24px;
+    position: absolute;
+  }
+  .android-small2-vector14 {
+    top: 50.20858383178711px;
+    left: -2.168404344971009e-17px;
+    width: 10px;
+    height: 11px;
+    opacity: 0.7;
+    position: absolute;
+  }
+  .android-small2-vector15 {
+    top: 36.44158172607422px;
+    left: 4.796689510345459px;
+    width: 18px;
+    height: 25px;
+    position: absolute;
+  }
+  .android-small2-vector16 {
+    top: 37.25152587890625px;
+    left: -1.6479873021779667e-17px;
+    width: 22px;
+    height: 24px;
+    opacity: 0.5;
+    position: absolute;
+  }
+  .android-small2-vector17 {
+    top: 38.87083053588867px;
+    left: 8.80154037475586px;
+    width: 6px;
+    height: 1px;
+    position: absolute;
+  }
+  .android-small2-vector18 {
+    top: 43.73004150390625px;
+    left: 4.004767894744873px;
+    width: 4px;
+    height: 3px;
+    position: absolute;
+  }
+  .android-small2-vector19 {
+    top: 37.25152587890625px;
+    left: -1.6479873021779667e-17px;
+    width: 22px;
+    height: 24px;
+    position: absolute;
+  }
+  .android-small2-vector20 {
+    top: 31.583086013793945px;
+    left: 9.604768753051758px;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+  }
+  .android-small2-vector21 {
+    top: 0px;
+    left: 11.199836730957031px;
+    width: 0px;
+    height: 32px;
+    position: absolute;
+  }
+  .android-small2-vector22 {
+    top: 34.012332916259766px;
+    left: 7.99830436706543px;
+    width: 7px;
+    height: 4px;
+    position: absolute;
+  }
+  .android-small2-vector23 {
+    top: 34.012332916259766px;
+    left: 7.99830436706543px;
+    width: 6px;
+    height: 1px;
+    position: absolute;
+  }
+  .android-small2-vector24 {
+    top: 34.012332916259766px;
+    left: 7.99830436706543px;
+    width: 7px;
+    height: 4px;
+    position: absolute;
+  }
+  .android-small2-vector25 {
+    top: 36.44158172607422px;
+    left: 9.604768753051758px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+  .android-small2-vector26 {
+    top: 866.69482421875px;
+    left: 527.734375px;
+    width: 305px;
+    height: 365px;
+    position: absolute;
+  }
+  .android-small2-vector27 {
+    top: -12px;
+    left: 41px;
+    width: 202px;
+    height: 219px;
+    position: absolute;
+  }
+  .android-small2-frame72 {
+    top: 47px;
+    left: 24px;
+    width: 139px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .android-small2-text {
+    color: var(--dl-color-colors_tertiary1-tertiary19);
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .android-small2-frame542 {
+    top: 79px;
+    left: 24px;
+    width: 312px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .android-small2-text02 {
+    color: rgba(69, 69, 69, 1);
+    width: 304px;
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: 52px;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+  .android-small2-text03 {
+    color: var(--dl-color-colors_black-black9);
+  }
+  .android-small2-text04 {
+    color: var(--dl-color-colors_secondary-secondary6);
+  }
+  .android-small2-text05 {
+    color: var(--dl-color-colors_black-black9);
+  }
+  .android-small2-text06 {
+    color: var(--dl-color-colors_primary-primary6);
+  }
+  .android-small2-text08 {
+    color: var(--dl-color-colors_black-black9);
+    width: 312px;
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: 24px;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+  .android-small2-button {
+    display: flex;
+    padding: 8px 16px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.0430000014603138);
+    align-items: center;
+    border-color: rgba(55, 39, 114, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--dl-color-colors_primary-primary6);
+  }
+  .android-small2-text13 {
+    color: var(--dl-color-colors_white-white1);
+    height: auto;
+    align-self: auto;
+    text-align: center;
+    line-height: 22px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .android-small2-frame75 {
+    top: 798px;
+    left: 24px;
+    width: 131px;
+    height: 131px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 4px;
+    background-color: var(--dl-color-colors_tertiary2-tertiary24);
+  }
+  .android-small2-unsplash-m-xloxsg-gw {
+    top: 0px;
+    left: -66px;
+    width: 199px;
+    height: 133px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .android-small2-group10 {
+    top: 749px;
+    left: 139px;
+    width: 33px;
+    height: 67px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .android-small2-frame74 {
+    top: 0px;
+    left: 0px;
+    width: 33px;
+    height: 67px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .android-small2-frame58 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-frame54 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0.9367088675498962px;
+    flex-direction: column;
+  }
+  .android-small2-ellipse10 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse11 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse15 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse12 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse13 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse14 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+  }
+  .android-small2-frame55 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0.9367088675498962px;
+    flex-direction: column;
+  }
+  .android-small2-ellipse1001 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1101 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1501 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1201 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1301 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1401 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+  }
+  .android-small2-frame56 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0.9367088675498962px;
+    flex-direction: column;
+  }
+  .android-small2-ellipse1002 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1102 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1502 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1202 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1302 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1402 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+  }
+  .android-small2-frame57 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0.9367088675498962px;
+    flex-direction: column;
+  }
+  .android-small2-ellipse1003 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1103 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1203 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1303 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1403 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1503 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+  }
+  .android-small2-frame581 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0.9367088675498962px;
+    flex-direction: column;
+  }
+  .android-small2-ellipse1004 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1104 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1504 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1204 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1304 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1404 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+  }
+  .android-small2-frame59 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .android-small2-ellipse1005 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1105 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1505 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1205 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1305 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1405 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+  }
+  .android-small2-frame591 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+  }
+  .android-small2-frame541 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0.9367088675498962px;
+    flex-direction: column;
+  }
+  .android-small2-ellipse1006 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1106 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1506 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1206 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1306 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1406 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+  }
+  .android-small2-frame551 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0.9367088675498962px;
+    flex-direction: column;
+  }
+  .android-small2-ellipse1007 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1107 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1507 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1207 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1307 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1407 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+  }
+  .android-small2-frame561 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0.9367088675498962px;
+    flex-direction: column;
+  }
+  .android-small2-ellipse1008 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1108 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1508 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1208 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1308 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1408 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+  }
+  .android-small2-frame571 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0.9367088675498962px;
+    flex-direction: column;
+  }
+  .android-small2-ellipse1009 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1109 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1209 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1309 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1409 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1509 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+  }
+  .android-small2-frame582 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-right: 0.9367088675498962px;
+    flex-direction: column;
+  }
+  .android-small2-ellipse1010 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1110 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1510 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1210 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1310 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1410 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+  }
+  .android-small2-frame592 {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+  .android-small2-ellipse1011 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1111 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1511 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1211 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1311 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+    margin-bottom: 0.9367088675498962px;
+  }
+  .android-small2-ellipse1411 {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-color: transparent;
+  }
+}
