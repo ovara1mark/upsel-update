@@ -1,8 +1,59 @@
-import react from "react";
-
+import react, { useState } from "react";
+import { Input } from "../../atoms/Input";
+import searchIcon from "../../../assets/vectorsearch.png";
+import rightArrIcon from "../../../assets/unioni1365-h6l.svg";
 import "./faq-section.css";
 
 export const FAQSection = (props) => {
+  const frequently = [
+    {
+      title: "This is panel header 1",
+      contentOne:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      contentTwo: "",
+    },
+    {
+      title: "This is panel header 1",
+      contentOne:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      contentTwo: "",
+    },
+    {
+      title: "This is panel header 1",
+      contentOne:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      contentTwo: "",
+    },
+    {
+      title: "This is panel header 1",
+      contentOne:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      contentTwo: "",
+    },
+    {
+      title: "This is panel header 1",
+      contentOne:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      contentTwo: "",
+    },
+    {
+      title: "This is panel header 1",
+      contentOne:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      contentTwo: "",
+    },
+  ];
+
+  const [clicked, setClicked] = useState(false);
+
+  const toggle = (index) => {
+    if (clicked === index) {
+      //if clicked question is already active, then close it
+      return setClicked(null);
+    }
+
+    setClicked(index);
+  };
   return (
     <>
       <div className="fa-section-container">
@@ -12,17 +63,22 @@ export const FAQSection = (props) => {
               <span>Frequently Asked Questions (FAQs)</span>
             </span>
             <div className="fa-section-searchbox">
-              <div className="fa-section-input">
+              <Input
+                placeholder="How can we help you?"
+                className="fa-search-input"
+              />
+              {/* <div className="fa-section-input">
                 <div className="fa-section-text02">
                   <span className="fa-section-text03">
                     <span>How can we help you?</span>
                   </span>
                 </div>
-              </div>
+              </div> */}
               <button className="fa-section-button">
                 <div className="fa-section-iconwrapper">
                   <img
-                    src="/playground_assets/unioni1365-kjlg.svg"
+                    src={searchIcon}
+                    // src="/playground_assets/unioni1365-kjlg.svg"
                     alt="UnionI1365"
                     className="fa-section-union"
                   />
@@ -30,7 +86,36 @@ export const FAQSection = (props) => {
               </button>
             </div>
             <div className="fa-section-faqcollapse">
-              <div className="fa-section-collapseitem">
+              {frequently.map((elem, index) => {
+                return (
+                  <div className="fq-qna">
+                    <div className="fq-holder" onClick={() => toggle(index)}>
+                      <p className="fq-p-head">{elem.title}</p>
+                      <div className="fq-btn">
+                        <img
+                          src={rightArrIcon}
+                          className={
+                            clicked === index ? "font-fq" : "font-fq-add"
+                          }
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className={
+                        clicked === index ? "fq-content" : "fq-content-hidden"
+                      }
+                    >
+                      <p type="p" className="content-p">
+                        {elem.contentOne}
+                      </p>
+                      <p type="p" className="content-p p-2">
+                        {elem.contentTwo}
+                      </p>
+                    </div>
+                  </div>
+                );
+              })}
+              {/* <div className="fa-section-collapseitem">
                 <div className="fa-section-frame527">
                   <div className="fa-section-header">
                     <div className="fa-section-frame526">
@@ -42,7 +127,8 @@ export const FAQSection = (props) => {
                     </div>
                     <div className="fa-section-downframe">
                       <img
-                        src="/playground_assets/downi1365-8dx.svg"
+                        // src="/playground_assets/downi1365-8dx.svg"
+                        src={rightArrIcon}
                         alt="DownI1365"
                         className="fa-section-down"
                       />
@@ -74,7 +160,8 @@ export const FAQSection = (props) => {
                   </div>
                   <div className="fa-section-frame529">
                     <img
-                      src="/playground_assets/righti1365-deml.svg"
+                      // src="/playground_assets/righti1365-deml.svg"
+                      src={rightArrIcon}
                       alt="RightI1365"
                       className="fa-section-right"
                     />
@@ -90,7 +177,8 @@ export const FAQSection = (props) => {
                   </div>
                   <div className="fa-section-frame5291">
                     <img
-                      src="/playground_assets/righti1365-y68b.svg"
+                      // src="/playground_assets/righti1365-y68b.svg"
+                      src={rightArrIcon}
                       alt="RightI1365"
                       className="fa-section-right1"
                     />
@@ -106,18 +194,56 @@ export const FAQSection = (props) => {
                   </div>
                   <div className="fa-section-frame5292">
                     <img
-                      src="/playground_assets/righti1365-suj.svg"
+                      // src="/playground_assets/righti1365-suj.svg"
+                      src={rightArrIcon}
                       alt="RightI1365"
                       className="fa-section-right2"
                     />
                   </div>
                 </div>
-              </div>
+              </div> */}
+
+              {/* <div className="fa-section-collapseitem">
+                <div className="fa-section-frame527">
+                  <div className="fa-section-header">
+                    <div className="fa-section-frame526">
+                      <div className="fa-section-texttext">
+                        <span className="fa-section-text05 LabelSmall-14px">
+                          <span>This is panel header 1</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div className="fa-section-downframe">
+                      <img
+                        // src="/playground_assets/downi1365-8dx.svg"
+                        src={rightArrIcon}
+                        alt="DownI1365"
+                        className="fa-section-down"
+                      />
+                    </div>
+                  </div>
+                  <div className="fa-section-content1">
+                    <div className="fa-section-text07">
+                      <span className="fa-section-text08">
+                        <span>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo consequat. Duis aute irure dolor in
+                          reprehenderit in voluptate velit esse cillum dolore eu
+                          fugiat nulla pariatur.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
-      <div className="faq-container-2">
+      {/* <div className="faq-container-2">
         <div className="f-qmobile-f-qmobile">
           <div className="f-qmobile-content">
             <div className="f-qmobile-frame528">
@@ -230,7 +356,7 @@ export const FAQSection = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
