@@ -23,9 +23,10 @@ export const HomePage = () => {
         <Story />
         <AboutUs />
         <Service />
-        {/* <Process />
+        {/* <Process /> */}
+
         <FAQSection />
-        <ContactUs />
+        {/* <ContactUs />
         <Footer /> */}
       </PageTemplate>
     </>
