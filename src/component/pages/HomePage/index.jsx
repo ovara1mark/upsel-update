@@ -22,8 +22,8 @@ export const HomePage = () => {
         <HeroSectionThree /> */}
         <Story />
         <AboutUs />
-        {/* <Service />
-        <Process />
+        <Service />
+        {/* <Process />
         <FAQSection />
         <ContactUs />
         <Footer /> */}
