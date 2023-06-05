@@ -1,5 +1,10 @@
 import react from "react";
 
+import upselLinkedin from "../../../assets/upsel-linkedin.png";
+import upselFb from "../../../assets/upsel-fb.png";
+import upselInsta from "../../../assets/upsel-insta.png";
+import upselTwitter from "../../../assets/upsel-twitter.png";
+import upselLine from "../../../assets/upsel-line.png";
 import "./footer.css";
 
 export const Footer = (props) => {
@@ -25,22 +30,22 @@ export const Footer = (props) => {
                 <div className="footer-colum011">
                   <div className="footer-links">
                     <img
-                      src="/playground_assets/fabrandslinkedinin1365-rb8.svg"
-                      alt="fabrandslinkedinin1365"
+                      src={upselLinkedin}
+                      alt="linkedin Icon"
                       className="footer-fabrandslinkedinin"
                     />
                     <img
-                      src="/playground_assets/fontistoinstagram1365-izuf.svg"
+                      src={upselInsta}
                       alt="fontistoinstagram1365"
                       className="footer-fontistoinstagram"
                     />
                     <img
-                      src="/playground_assets/checkboxsavebrandicofacebook1365-4bwh.svg"
+                      src={upselFb}
                       alt="Checkboxsavebrandicofacebook1365"
                       className="footer-checkboxsavebrandicofacebook"
                     />
                     <img
-                      src="/playground_assets/brandicotwitterbird1365-ttoeh.svg"
+                      src={upselTwitter}
                       alt="brandicotwitterbird1365"
                       className="footer-brandicotwitterbird"
                     />
@@ -75,16 +80,16 @@ export const Footer = (props) => {
                     </span>
                     <div className="footer-links1">
                       <span className="footer-text08">
-                        <span>about</span>
+                        <span>About</span>
                       </span>
                       <span className="footer-text10">
-                        <span>blog</span>
+                        <span>Blog</span>
                       </span>
                       <span className="footer-text12">
-                        <span>contact us</span>
+                        <span>Contact us</span>
                       </span>
                       <span className="footer-text14">
-                        <span>careers</span>
+                        <span>Careers</span>
                       </span>
                     </div>
                   </div>
@@ -112,22 +117,14 @@ export const Footer = (props) => {
                 <span className="footer-text24">
                   <span>© 2023 -Upsel</span>
                 </span>
-                <img
-                  src="/playground_assets/line11365-rvin.svg"
-                  alt="Line11365"
-                  className="footer-line1"
-                />
+                <img src={upselLine} alt="Line11365" className="footer-line1" />
                 <span className="footer-text26">
                   <span>
                     Terms
                     <span />
                   </span>
                 </span>
-                <img
-                  src="/playground_assets/line21365-sn83.svg"
-                  alt="Line21365"
-                  className="footer-line2"
-                />
+                <img src={upselLine} alt="Line21365" className="footer-line2" />
                 <span className="footer-text28">
                   <span>Privacy</span>
                 </span>
@@ -156,22 +153,22 @@ export const Footer = (props) => {
                 <div className="footer-colum011">
                   <div className="footer-links">
                     <img
-                      src="/playground_assets/fabrandslinkedinin1438-tl27.svg"
+                      src={upselLinkedin}
                       alt="fabrandslinkedinin1438"
                       className="footer-fabrandslinkedinin"
                     />
                     <img
-                      src="/playground_assets/fontistoinstagram1438-s2nd.svg"
+                      src={upselInsta}
                       alt="fontistoinstagram1438"
                       className="footer-fontistoinstagram"
                     />
                     <img
-                      src="/playground_assets/checkboxsavebrandicofacebook1438-byx.svg"
+                      src={upselFb}
                       alt="Checkboxsavebrandicofacebook1438"
                       className="footer-checkboxsavebrandicofacebook"
                     />
                     <img
-                      src="/playground_assets/brandicotwitterbird1438-cz8s.svg"
+                      src={upselTwitter}
                       alt="brandicotwitterbird1438"
                       className="footer-brandicotwitterbird"
                     />
@@ -182,9 +179,11 @@ export const Footer = (props) => {
                 <div className="footer-input">
                   <div className="footer-wrapper">
                     <div className="footer-wrapper1">
-                      <span className="footer-text02">
-                        <span>example @email.com</span>
-                      </span>
+                      <input
+                        type="text"
+                        placeholder="example @email.com"
+                        className="footer-input2"
+                      />
                     </div>
                   </div>
                   <button className="footer-button">
@@ -200,16 +199,16 @@ export const Footer = (props) => {
                     </span>
                     <div className="footer-links1">
                       <span className="footer-text08">
-                        <span>about</span>
+                        <span>About</span>
                       </span>
                       <span className="footer-text10">
-                        <span>blog</span>
+                        <span>Blog</span>
                       </span>
                       <span className="footer-text12">
-                        <span>contact us</span>
+                        <span>Contact us</span>
                       </span>
                       <span className="footer-text14">
-                        <span>careers</span>
+                        <span>Careers</span>
                       </span>
                     </div>
                   </div>
@@ -237,11 +236,7 @@ export const Footer = (props) => {
                 <span className="footer-text24">
                   <span>© 2023 -Upsel</span>
                 </span>
-                <img
-                  src="/playground_assets/line11438-qad.svg"
-                  alt="Line11438"
-                  className="footer-line1"
-                />
+                <img src={upselLine} alt="Line11438" className="footer-line1" />
                 <span className="footer-text26">
                   <span>
                     Terms
@@ -252,11 +247,7 @@ export const Footer = (props) => {
                     />
                   </span>
                 </span>
-                <img
-                  src="/playground_assets/line21438-6h7.svg"
-                  alt="Line21438"
-                  className="footer-line2"
-                />
+                <img src={upselLine} alt="Line21438" className="footer-line2" />
                 <span className="footer-text28">
                   <span>Privacy</span>
                 </span>
