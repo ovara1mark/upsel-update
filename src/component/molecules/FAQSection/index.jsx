@@ -88,7 +88,7 @@ export const FAQSection = (props) => {
             <div className="fa-section-faqcollapse">
               {frequently.map((elem, index) => {
                 return (
-                  <div className="fq-qna">
+                  <div className="fq-qna" key={index}>
                     <div className="fq-holder" onClick={() => toggle(index)}>
                       <p className="fq-p-head">{elem.title}</p>
                       <div className="fq-btn">

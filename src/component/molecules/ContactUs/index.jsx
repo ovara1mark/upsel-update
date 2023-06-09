@@ -1,8 +1,16 @@
 import react from "react";
-// import "./contact";
+
+import main from "../../../assets/ellipse 5main.png";
+import brown from "../../../assets/ellipse 4brown.png";
+import green from "../../../assets/ellipse 6green.png";
+import lilac from "../../../assets/ellipse 1lilac.png";
+import lightblue from "../../../assets/ellipse 3lightblue.png";
+import purple from "../../../assets/ellipse 2purple.png";
+import sendIcon from "../../../assets/vector (9).png";
+
 import "./contactus.css";
 
-export const ContactUs = (props) => {
+export const ContactUs = () => {
   return (
     <>
       <div className="contactus-container">
@@ -160,7 +168,7 @@ export const ContactUs = (props) => {
                           <button className="contactus-button">
                             <div className="contactus-iconwrapper2">
                               <img
-                                src="/playground_assets/unioni1365-b6hk.svg"
+                                src={sendIcon}
                                 alt="UnionI1365"
                                 className="contactus-union1"
                               />
@@ -177,7 +185,7 @@ export const ContactUs = (props) => {
               </div>
               <div className="contactus-quotes">
                 <img
-                  src="/playground_assets/ellipse5i1365-3r5f-400h.png"
+                  src={main}
                   alt="Ellipse5I1365"
                   className="contactus-ellipse5"
                 />
@@ -202,27 +210,27 @@ export const ContactUs = (props) => {
                   </span>
                 </span>
                 <img
-                  src="/playground_assets/ellipse1i1365-0jy-200h.png"
+                  src={lilac}
                   alt="Ellipse1I1365"
                   className="contactus-ellipse1"
                 />
                 <img
-                  src="/playground_assets/ellipse6i1365-ku5b-200h.png"
+                  src={green}
                   alt="Ellipse6I1365"
                   className="contactus-ellipse6"
                 />
                 <img
-                  src="/playground_assets/ellipse2i1365-bi6e-200h.png"
+                  src={purple}
                   alt="Ellipse2I1365"
                   className="contactus-ellipse2"
                 />
                 <img
-                  src="/playground_assets/ellipse3i1365-0cw-200h.png"
+                  src={lightblue}
                   alt="Ellipse3I1365"
                   className="contactus-ellipse3"
                 />
                 <img
-                  src="/playground_assets/ellipse4i1365-wjdr-200h.png"
+                  src={brown}
                   alt="Ellipse4I1365"
                   className="contactus-ellipse4"
                 />

@@ -1,4 +1,4 @@
-import react from "react";
+import react, { useState } from "react";
 
 import upselLinkedin from "../../../assets/upsel-linkedin.png";
 import upselFb from "../../../assets/upsel-fb.png";
@@ -7,7 +7,25 @@ import upselTwitter from "../../../assets/upsel-twitter.png";
 import upselLine from "../../../assets/upsel-line.png";
 import "./footer.css";
 
-export const Footer = (props) => {
+export const Footer = () => {
+  const [subscribeValue, setSubscribeValue] = useState("");
+
+  const handleSubscribeSubmit = async (e) => {
+    e.preventDefault();
+
+    // POST LOGIC
+    const response = await fetch("/sub", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: subscribeValue }),
+    });
+
+    setSubscribeValue("");
+  };
+
+  const handleSubscribeChange = (e) => {
+    setSubscribeValue(e.target.value);
+  };
   return (
     <>
       <div className="footer-container">
@@ -59,13 +77,19 @@ export const Footer = (props) => {
                       <div className="footer-wrapper1">
                         <span className="footer-text02">
                           <input
-                            type="text"
+                            type="email"
+                            name="email"
                             placeholder="example @email.com"
                             className="footer-input2"
+                            value={subscribeValue}
+                            onChange={handleSubscribeChange}
                           />
                         </span>
                       </div>
-                      <button className="footer-button">
+                      <button
+                        onClick={handleSubscribeSubmit}
+                        className="footer-button"
+                      >
                         <span className="footer-text04">
                           <span>Subscribe To NewsLetter</span>
                         </span>
@@ -183,10 +207,15 @@ export const Footer = (props) => {
                         type="text"
                         placeholder="example @email.com"
                         className="footer-input2"
+                        value={subscribeValue}
+                        onChange={handleSubscribeChange}
                       />
                     </div>
                   </div>
-                  <button className="footer-button">
+                  <button
+                    onClick={handleSubscribeSubmit}
+                    className="footer-button"
+                  >
                     <span className="footer-text04">
                       <span>Subscribe To NewsLetter</span>
                     </span>

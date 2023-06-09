@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+
+:root{
+  --dl-color-colors_black-black3:#F5F5F5;
+  --dl-color-colors_white-white13:white;
+}
 .contactus-container {
   min-height: 100vh;
 }
@@ -26,7 +32,7 @@
   justify-content: center;
 }
 .contactus-text {
-  color: rgba(0, 0, 0, 1);
+  color: #372772;
   height: auto;
   font-size: 36px;
   align-self: auto;
@@ -328,6 +334,14 @@
   margin-bottom: 24px;
   flex-direction: column;
   background-color: var(--dl-color-colors_white-white13);
+}
+.contactus-input input::placeholder,
+.contactus-input1 input::placeholder,
+.contactus-input2 input::placeholder,
+.contactus-input3 input::placeholder,
+.contactus-textarea textarea::placeholder{
+  font-size: 1rem;
+  font-family: Montserrat;
 }
 .contactus-wrapper {
   display: flex;
@@ -795,6 +809,7 @@
   height: 64px;
   position: absolute;
   border-color: transparent;
+  animation: 5s infinite rotate;
 }
 .contactus-ellipse6 {
   top: 23px;
@@ -1405,5 +1420,14 @@
     margin-right: 0;
     margin-bottom: 0;
     text-decoration: none;
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }
