@@ -2,7 +2,7 @@ import react from "react";
 
 import "./story.css";
 
-export const Story = (props) => {
+export const Story = () => {
   return (
     <>
       <div className="story-section">

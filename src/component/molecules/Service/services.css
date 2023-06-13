@@ -37,7 +37,7 @@
   border-radius: 4px;
   margin-bottom: 16px;
   background-color: var(--bg-white);
-  cursor: pointer;
+
   display: flex;
   justify-content: space-between;
 }
@@ -45,11 +45,13 @@
 .service-top {
   display: flex;
   /* border: 1px solid blue; */
+  cursor: pointer;
 }
 
-/* .service-bottom {
-  border: 1px solid green;
-} */
+.service-bottom {
+  /* border: 1px solid green; */
+  display:block;
+}
 
 .service-body {
   display: flex;
@@ -106,10 +108,14 @@
 .subcontain-top {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
+  /* border: 1px solid red; */
 }
 
 .subcontain-bottom {
   margin-top: 1.5rem;
+  display: block;
+
 }
 .plus {
   width: 12px;
@@ -165,6 +171,10 @@
     display: block;
   }
 
+  .services{
+    width: 100%;
+  }
+
   .service-body {
     padding: 0rem 32px 16px 32px;
   }
@@ -203,10 +213,28 @@
     margin: 0rem 64px 16px 64px;
   }
 
+  .services-right{
+    font-size: 20px;
+  }
+
   .image-right {
     width: 50%;
     height: 50%;
   }
+}
+
+
+@media screen and (max-width: 500px) {
+  .subcontain {
+    width: 100%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+
+  .service-head {
+    font-size: 24px;
+  }
+
 }
 
 @media screen and (min-width: 2000px) {
@@ -216,4 +244,9 @@
     width: 50%;
     /* border: 1px solid red; */
   }
+}
+
+
+.service-hide,.subcontain-hide{
+  display: none;
 }

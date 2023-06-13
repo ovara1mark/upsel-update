@@ -2,10 +2,10 @@ import react from "react";
 // import "./contact";
 import "./contactus.css";
 
-export const ContactUs = (props) => {
+export const ContactUs = () => {
   return (
     <>
-      <div className="contactus-container">
+      <div className="contactus-container" id="ContactUs">
         <div className="contactus-contactus">
           <div className="contactus-content">
             <span className="contactus-text">

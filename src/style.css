@@ -1,0 +1,442 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #d9d9d9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #a22020;
+  --dl-color-danger-500: #bf2626;
+  --dl-color-danger-700: #e14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #ffffff;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003eb3;
+  --dl-color-primary-300: #0074f0;
+  --dl-color-primary-500: #14a9ff;
+  --dl-color-primary-700: #85dcff;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32a94c;
+  --dl-color-success-700: #4cc366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-color-colors_black-black1: rgba(255, 255, 255, 1);
+  --dl-color-colors_black-black2: rgba(252, 252, 252, 1);
+  --dl-color-colors_black-black3: rgba(245, 245, 245, 1);
+  --dl-color-colors_black-black4: rgba(240, 240, 240, 1);
+  --dl-color-colors_black-black5: rgba(217, 217, 217, 1);
+  --dl-color-colors_black-black6: rgba(191, 191, 191, 1);
+  --dl-color-colors_black-black7: rgba(140, 140, 140, 1);
+  --dl-color-colors_black-black8: rgba(89, 89, 89, 1);
+  --dl-color-colors_black-black9: rgba(69, 69, 69, 1);
+  --dl-color-colors_error-error1: rgba(247, 230, 230, 1);
+  --dl-color-colors_error-error2: rgba(236, 194, 194, 1);
+  --dl-color-colors_error-error3: rgba(221, 146, 146, 1);
+  --dl-color-colors_error-error4: rgba(205, 95, 95, 1);
+  --dl-color-colors_error-error5: rgba(190, 47, 47, 1);
+  --dl-color-colors_error-error6: rgba(176, 0, 0, 1);
+  --dl-color-colors_error-error7: rgba(150, 1, 1, 1);
+  --dl-color-colors_error-error8: rgba(125, 1, 1, 1);
+  --dl-color-colors_error-error9: rgba(100, 1, 1, 1);
+  --dl-color-colors_white-white1: rgba(255, 255, 255, 1);
+  --dl-color-colors_white-white2: rgba(255, 255, 255, 1);
+  --dl-color-colors_white-white3: rgba(255, 255, 255, 1);
+  --dl-color-colors_white-white4: rgba(255, 255, 255, 1);
+  --dl-color-colors_white-white5: rgba(255, 255, 255, 1);
+  --dl-color-colors_white-white6: rgba(255, 255, 255, 1);
+  --dl-color-colors_white-white7: rgba(255, 255, 255, 1);
+  --dl-color-colors_white-white8: rgba(255, 255, 255, 1);
+  --dl-color-colors_white-white9: rgba(255, 255, 255, 1);
+  --dl-color-colors_black-black10: rgba(38, 38, 38, 1);
+  --dl-color-colors_black-black11: rgba(31, 31, 31, 1);
+  --dl-color-colors_black-black12: rgba(20, 20, 20, 1);
+  --dl-color-colors_black-black13: rgba(0, 0, 0, 1);
+  --dl-color-colors_error-error10: rgba(79, 0, 0, 1);
+  --dl-color-colors_white-white10: rgba(255, 255, 255, 1);
+  --dl-color-colors_white-white11: rgba(255, 255, 255, 1);
+  --dl-color-colors_white-white12: rgba(255, 255, 255, 1);
+  --dl-color-colors_white-white13: rgba(255, 255, 255, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-colors_primary-primary1: rgba(235, 233, 241, 1);
+  --dl-color-colors_primary-primary2: rgba(207, 203, 221, 1);
+  --dl-color-colors_primary-primary3: rgba(169, 162, 194, 1);
+  --dl-color-colors_primary-primary4: rgba(129, 119, 166, 1);
+  --dl-color-colors_primary-primary5: rgba(91, 78, 139, 1);
+  --dl-color-colors_primary-primary6: rgba(55, 39, 114, 1);
+  --dl-color-colors_primary-primary7: rgba(47, 33, 97, 1);
+  --dl-color-colors_primary-primary8: rgba(39, 28, 81, 1);
+  --dl-color-colors_primary-primary9: rgba(31, 22, 65, 1);
+  --dl-color-colors_success-success1: rgba(234, 245, 230, 1);
+  --dl-color-colors_success-success2: rgba(203, 231, 194, 1);
+  --dl-color-colors_success-success3: rgba(163, 212, 146, 1);
+  --dl-color-colors_success-success4: rgba(120, 192, 95, 1);
+  --dl-color-colors_success-success5: rgba(79, 173, 47, 1);
+  --dl-color-colors_success-success6: rgba(40, 155, 1, 1);
+  --dl-color-colors_success-success7: rgba(34, 132, 1, 1);
+  --dl-color-colors_success-success8: rgba(28, 110, 1, 1);
+  --dl-color-colors_success-success9: rgba(23, 88, 1, 1);
+  --dl-color-colors_warning-warning1: rgba(247, 239, 230, 1);
+  --dl-color-colors_warning-warning2: rgba(236, 217, 194, 1);
+  --dl-color-colors_warning-warning3: rgba(221, 186, 146, 1);
+  --dl-color-colors_warning-warning4: rgba(205, 154, 95, 1);
+  --dl-color-colors_warning-warning5: rgba(190, 124, 47, 1);
+  --dl-color-colors_warning-warning6: rgba(176, 95, 1, 1);
+  --dl-color-colors_warning-warning7: rgba(150, 81, 1, 1);
+  --dl-color-colors_warning-warning8: rgba(125, 67, 1, 1);
+  --dl-color-colors_warning-warning9: rgba(100, 54, 1, 1);
+  --dl-color-colors_primary-primary10: rgba(25, 18, 51, 1);
+  --dl-color-colors_success-success10: rgba(18, 70, 0, 1);
+  --dl-color-colors_warning-warning10: rgba(79, 43, 0, 1);
+  --dl-color-colors_secondary-secondary1: rgba(240, 249, 251, 1);
+  --dl-color-colors_secondary-secondary2: rgba(219, 241, 245, 1);
+  --dl-color-colors_secondary-secondary3: rgba(190, 229, 237, 1);
+  --dl-color-colors_secondary-secondary4: rgba(160, 217, 228, 1);
+  --dl-color-colors_secondary-secondary5: rgba(131, 206, 220, 1);
+  --dl-color-colors_secondary-secondary6: rgba(104, 195, 212, 1);
+  --dl-color-colors_secondary-secondary7: rgba(88, 166, 180, 1);
+  --dl-color-colors_secondary-secondary8: rgba(74, 138, 151, 1);
+  --dl-color-colors_secondary-secondary9: rgba(59, 111, 121, 1);
+  --dl-color-colors_tertiary1-tertiary11: rgba(250, 248, 248, 1);
+  --dl-color-colors_tertiary1-tertiary12: rgba(244, 237, 239, 1);
+  --dl-color-colors_tertiary1-tertiary13: rgba(235, 224, 226, 1);
+  --dl-color-colors_tertiary1-tertiary14: rgba(226, 209, 212, 1);
+  --dl-color-colors_tertiary1-tertiary15: rgba(217, 195, 199, 1);
+  --dl-color-colors_tertiary1-tertiary16: rgba(209, 182, 187, 1);
+  --dl-color-colors_tertiary1-tertiary17: rgba(178, 155, 159, 1);
+  --dl-color-colors_tertiary1-tertiary18: rgba(148, 129, 133, 1);
+  --dl-color-colors_tertiary1-tertiary19: rgba(119, 104, 107, 1);
+  --dl-color-colors_tertiary2-tertiary21: rgba(255, 253, 250, 1);
+  --dl-color-colors_tertiary2-tertiary22: rgba(255, 249, 243, 1);
+  --dl-color-colors_tertiary2-tertiary23: rgba(254, 244, 234, 1);
+  --dl-color-colors_tertiary2-tertiary24: rgba(254, 239, 225, 1);
+  --dl-color-colors_tertiary2-tertiary25: rgba(253, 235, 216, 1);
+  --dl-color-colors_tertiary2-tertiary26: rgba(253, 230, 207, 1);
+  --dl-color-colors_tertiary2-tertiary27: rgba(215, 196, 176, 1);
+  --dl-color-colors_tertiary2-tertiary28: rgba(180, 163, 147, 1);
+  --dl-color-colors_tertiary2-tertiary29: rgba(144, 131, 118, 1);
+  --dl-color-colors_secondary-secondary10: rgba(47, 88, 95, 1);
+  --dl-color-colors_tertiary1-tertiary110: rgba(94, 82, 84, 1);
+  --dl-color-colors_tertiary2-tertiary210: rgba(114, 103, 93, 1);
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.ParagraphLarge-18px {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ParagraphMeduim-16px {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ParagraphSmall-14px {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ParagraphX-Small-12px {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.LabelLarge-18px {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.LabelMeduim-16px {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.LabelSmall-14px {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.LabelX-Small-12px {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Displaylarge-96 {
+  font-size: 96px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.DisplayMedium-60 {
+  font-size: 60px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.DisplaySmall-52 {
+  font-size: 52px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Displayxsmall-44px {
+  font-size: 44px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.HeadingRegularxxlarge {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadingRegularxlarge {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadingRegularlarge {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadingRegularMedium {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadingRegularSmall {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadingRegularxSmall {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.HeadingMediumxxlarge {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingMediumxlarge {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingMediumlarge {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingMediummedium {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingMediumSmall {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingMediumxSmall {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.HeadingLightxxlarge {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.HeadingLightxlarge {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.HeadingLightlarge {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.HeadingLightmedium {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.HeadingLightSmall {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.HeadingLightxSmall {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.HeadingBoldxxlarge {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.HeadingBoldxlarge {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.HeadingBoldlarge {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.HeadingBoldmedium {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.HeadingBoldSmall {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.HeadingBoldxSmall {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Space Grotesk;
+  font-weight: 700px;
+  font-stretch: normal;
+}

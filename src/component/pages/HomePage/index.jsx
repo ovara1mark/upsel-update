@@ -4,30 +4,26 @@ import {
   ContactUs,
   FAQSection,
   Footer,
-  HeroSection,
-  HeroSectionThree,
-  HeroSectionTwo,
   Process,
   Service,
   Story,
 } from "../../molecules";
 import { PageTemplate } from "../../templates";
+import Slider from "../../organism/Slider";
 
 export const HomePage = () => {
   return (
     <>
       <PageTemplate>
-        {/* <HeroSection />
-        <HeroSectionTwo />
-        <HeroSectionThree /> */}
+        <Slider />
         <Story />
         <AboutUs />
         <Service />
-        {/* <Process /> */}
+        <Process />
 
         <FAQSection />
-        {/* <ContactUs />
-        <Footer /> */}
+        <ContactUs />
+        <Footer />
       </PageTemplate>
     </>
   );
