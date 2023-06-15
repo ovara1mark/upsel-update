@@ -8,7 +8,6 @@ import upselLine from "../../../assets/upsel-line.png";
 import "./footer.css";
 
 export const Footer = () => {
-
   const [subscribeValue, setSubscribeValue] = useState("");
 
   const handleSubscribeSubmit = async (e) => {
@@ -20,7 +19,6 @@ export const Footer = () => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email: subscribeValue }),
     });
-
     setSubscribeValue("");
   };
 

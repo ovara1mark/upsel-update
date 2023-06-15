@@ -1421,13 +1421,57 @@
     margin-bottom: 0;
     text-decoration: none;
   }
+    .contactus-input2{
+      width: initial;
+    }
+    .contactus-framedropdowntriggerlegacy{
+      display: none;
+    }
 }
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
+@keyframes circlwe {
+  0% {
+    transform: translateX(0) translateY(0);
+    /* top: 23px;
+    left: 210px; */
+  }
+  25% {
+    /* transform: translateX(0) translateY(0); */
+    /* top: 106px;
+    left: 407px; */
+    transform: translateX(240px) translateY(188px);
+  }
+  50% {
+    transform: translateX(49px) translateY(395px);
+    /* transform: translateX(0) translateY(0); */
+    /* top: 318px;
+    left: 431px; */
+  }
+  75% {
+    transform: translateX(-158px) translateY(201px);
+    /* transform: translateX(0) translateY(0); */
+    /* top: 391px;
+    left: 146px; */
+  }
+  
+  100% {
+    transform: translateX(0) translateY(0);
+    /* top: 23px;
+    left: 210px; */
   }
 
-  to {
-    transform: rotate(360deg);
-  }
+  
+}
+
+.circle-animation-container {
+  position: relative;
+}
+.circle-animation {
+  position: absolute;
+  animation-name: circle;
+  animation-duration: 5s;
+  /* Adjust the duration as needed */
+  animation-timing-function: linear;
+  /* Adjust the timing function as needed */
+  animation-iteration-count: infinite;
+  /* Make the animation loop infinitely */
 }

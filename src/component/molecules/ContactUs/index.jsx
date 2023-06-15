@@ -1,4 +1,4 @@
-import react from "react";
+import react, { useState } from "react";
 
 import main from "../../../assets/ellipse 5main.png";
 import brown from "../../../assets/ellipse 4brown.png";
@@ -11,6 +11,37 @@ import sendIcon from "../../../assets/vector (9).png";
 import "./contactus.css";
 
 export const ContactUs = () => {
+  const initialData = {
+    name: "",
+    email: "",
+    tel: "",
+    phone: "",
+    message: "",
+    budget: "",
+  };
+
+  const [formValues, setFormValues] = useState(initialData);
+  const handleSubmit = async () => {
+    e.preventDefault();
+
+    // POST LOGIC
+    const formResponse = await fetch("/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ [e.target.name]: e.target.value }),
+    });
+
+    setFormValues(initialData);
+  };
+
+  const handleChange = (e) =>
+    setFormValues((prev) => {
+      return {
+        ...prev,
+        [e.target.name]: e.target.value,
+      };
+    });
+
   return (
     <>
       <div className="contactus-container" id="ContactUs">
@@ -67,8 +98,11 @@ export const ContactUs = () => {
                                   <input
                                     type="text"
                                     className="full-name"
-                                    name="fullname"
+                                    name="name"
                                     placeholder="Your name"
+                                    value={formValues.name}
+                                    onChange={handleChange}
+                                    required
                                   />
                                 </span>
                               </div>
@@ -81,6 +115,9 @@ export const ContactUs = () => {
                                     className="email"
                                     name="email"
                                     placeholder="Your email"
+                                    value={formValues.email}
+                                    onChange={handleChange}
+                                    required
                                   />
                                 </span>
                               </div>
@@ -115,7 +152,10 @@ export const ContactUs = () => {
                                     type="tel"
                                     className="tel"
                                     id="tel"
+                                    name="tel"
                                     value="+234"
+                                    onChange={handleChange}
+                                    required
                                   />
                                 </span>
                                 <div className="contactus-iconwrapper1">
@@ -133,7 +173,9 @@ export const ContactUs = () => {
                                       type="tel"
                                       placeholder="Your Phone number"
                                       className="contact-phone"
-                                      name="tel"
+                                      name="phone"
+                                      value={formValues.phone}
+                                      onChange={handleChange}
                                     />
                                   </span>
                                 </div>
@@ -143,9 +185,12 @@ export const ContactUs = () => {
                               <span className="contactus-text20">
                                 <span>
                                   <textarea
-                                    name="textarea"
+                                    name="message"
                                     placeholder="Tell us about your project..."
                                     className="tell-us"
+                                    value={formValues.message}
+                                    onChange={handleChange}
+                                    required
                                   ></textarea>
                                   <br></br>
                                   <span></span>
@@ -160,12 +205,17 @@ export const ContactUs = () => {
                                     className="budget"
                                     name="budget"
                                     placeholder="Project budget: (USD)"
+                                    value={formValues.budget}
+                                    onChange={handleChange}
                                   />
                                 </span>
                               </div>
                             </div>
                           </div>
-                          <button className="contactus-button">
+                          <button
+                            onClick={handleSubmit}
+                            className="contactus-button"
+                          >
                             <div className="contactus-iconwrapper2">
                               <img
                                 src={sendIcon}
@@ -212,27 +262,27 @@ export const ContactUs = () => {
                 <img
                   src={lilac}
                   alt="Ellipse1I1365"
-                  className="contactus-ellipse1"
+                  className="contactus-ellipse1 circle-animation "
                 />
                 <img
                   src={green}
                   alt="Ellipse6I1365"
-                  className="contactus-ellipse6"
+                  className="contactus-ellipse6 circle-animation "
                 />
                 <img
                   src={purple}
                   alt="Ellipse2I1365"
-                  className="contactus-ellipse2"
+                  className="contactus-ellipse2 circle-animation "
                 />
                 <img
                   src={lightblue}
                   alt="Ellipse3I1365"
-                  className="contactus-ellipse3"
+                  className="contactus-ellipse3 circle-animation "
                 />
                 <img
                   src={brown}
                   alt="Ellipse4I1365"
-                  className="contactus-ellipse4"
+                  className="contactus-ellipse4 circle-animation "
                 />
               </div>
             </div>
@@ -279,11 +329,131 @@ export const ContactUs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="contactform-contactform1"></div>
+                <div className="contactform-contactform1">
+                  <div className="contactus-inputs">
+                    <div className="contactus-input">
+                      <div className="contactus-wrapper">
+                        <span className="contactus-text12">
+                          <input
+                            type="text"
+                            className="full-name"
+                            name="name"
+                            placeholder="Your name"
+                            value={formValues.name}
+                            onChange={handleChange}
+                            required
+                          />
+                        </span>
+                      </div>
+                    </div>
+                    <div className="contactus-input1">
+                      <div className="contactus-wrapper1">
+                        <span className="contactus-text14">
+                          <input
+                            type="email"
+                            className="email"
+                            name="email"
+                            placeholder="Your email"
+                            value={formValues.email}
+                            onChange={handleChange}
+                            required
+                          />
+                        </span>
+                      </div>
+                    </div>
+                    <div className="contactus-phone">
+                      <div className="contactus-framedropdowntriggerlegacy">
+                        <div className="contactus-icon">
+                          <div className="contactus-iconwrapper">
+                            <div className="contactus-flag">
+                              {/* <div className="contactus-group8">
+                                      <img
+                                        src="/playground_assets/vectori1365-3rj.svg"
+                                        alt="VectorI1365"
+                                        className="contactus-vector"
+                                      />
+                                      <img
+                                        src="/playground_assets/vectori1365-sf9p.svg"
+                                        alt="VectorI1365"
+                                        className="contactus-vector1"
+                                      />
+                                      <img
+                                        src="/playground_assets/vectori1365-9v5.svg"
+                                        alt="VectorI1365"
+                                        className="contactus-vector2"
+                                      />
+                                    </div> */}
+                            </div>
+                          </div>
+                        </div>
+                        <span className="contactus-text16 H5regular">
+                          <input
+                            type="tel"
+                            className="tel"
+                            id="tel"
+                            name="tel"
+                            value="+234"
+                            onChange={handleChange}
+                            required
+                          />
+                        </span>
+                        <div className="contactus-iconwrapper1">
+                          <img
+                            src="/playground_assets/unioni1365-na6m.svg"
+                            alt="UnionI1365"
+                            className="contactus-union"
+                          />
+                        </div>
+                      </div>
+                      <div className="contactus-input2">
+                        <div className="contactus-wrapper2">
+                          <span className="contactus-text18">
+                            <input
+                              type="tel"
+                              placeholder="Your Phone number"
+                              className="contact-phone"
+                              name="phone"
+                              value={formValues.phone}
+                            />
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="contactus-textarea">
+                      <span className="contactus-text20">
+                        <span>
+                          <textarea
+                            name="message"
+                            placeholder="Tell us about your project..."
+                            className="tell-us"
+                            value={formValues.message}
+                            onChange={handleChange}
+                          ></textarea>
+                          <br></br>
+                          <span></span>
+                        </span>
+                      </span>
+                    </div>
+                    <div className="contactus-input3">
+                      <div className="contactus-wrapper3">
+                        <span className="contactus-text25">
+                          <input
+                            type="text"
+                            className="budget"
+                            name="budget"
+                            placeholder="Project budget: (USD)"
+                            value={formValues.budget}
+                            onChange={handleChange}
+                          />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </form>
 
-            <button className="contactform-button">
+            <button onClick={handleSubmit} className="contactform-button">
               <div className="contactform-iconwrapper2">
                 <img
                   alt="UnionI1438"
