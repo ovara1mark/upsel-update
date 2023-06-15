@@ -8,6 +8,7 @@ import upselLine from "../../../assets/upsel-line.png";
 import "./footer.css";
 
 export const Footer = () => {
+
   const [subscribeValue, setSubscribeValue] = useState("");
 
   const handleSubscribeSubmit = async (e) => {
@@ -26,6 +27,7 @@ export const Footer = () => {
   const handleSubscribeChange = (e) => {
     setSubscribeValue(e.target.value);
   };
+
   return (
     <>
       <div className="footer-container">

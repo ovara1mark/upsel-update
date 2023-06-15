@@ -13,7 +13,7 @@ import "./contactus.css";
 export const ContactUs = () => {
   return (
     <>
-      <div className="contactus-container">
+      <div className="contactus-container" id="ContactUs">
         <div className="contactus-contactus">
           <div className="contactus-content">
             <span className="contactus-text">

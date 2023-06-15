@@ -6,7 +6,7 @@ import tengku from "../../../assets/tengku-nadia-fz8_SONkBB8-unsplash.jpg";
 import logo from "../../../assets/logo.svg";
 import "./about.css";
 
-export const AboutUs = (props) => {
+export const AboutUs = () => {
   return (
     <>
       <div className="about-container">

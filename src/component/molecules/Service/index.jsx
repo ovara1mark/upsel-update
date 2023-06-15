@@ -1,291 +1,267 @@
-import react from "react";
-
+import react, { useState } from "react";
+import pen from "../../../assets/pen.png";
+import laptop from "../../../assets/laptop.png";
+import market from "../../../assets/market.png";
+import arrow from "../../../assets/arrow.svg";
+import plus from "../../../assets/plus.svg";
+import phone from "../../../assets/phone.png";
+import left from "../../../assets/unioni1365-916.svg";
 import "./services.css";
 
-export const Service = (props) => {
+export const Service = () => {
+  const [clicked, setClicked] = useState(false);
+
+  const toggle = (indexed) => {
+    if (clicked === indexed) {
+      //if clicked question is already active, then close it
+      return setClicked(null);
+    }
+
+    setClicked(indexed);
+  };
+
+  const [hide, setHide] = useState(false);
+  const handleClick = (indexed) => {
+    if (hide === indexed) {
+      return setHide(null);
+    }
+    return setHide(indexed);
+  };
+
+  const [hided, setHided] = useState(false);
+  const handleClicked = (indexed) => {
+    if (hided === indexed) {
+      return setHided(null);
+    }
+    return setHided(indexed);
+  };
+
+  const [hider, setHider] = useState(false);
+  const handleClicker = (indexed) => {
+    if (hider === indexed) {
+      return setHider(null);
+    }
+    return setHider(indexed);
+  };
+  const details = [
+    {
+      id: 1,
+      image: phone,
+      logo: pen,
+      title: "Product Design",
+      content:
+        "We are constantly improving the experience of users by gathering information inorder to see things through the lens of their eyes, propose solutions and test them to ensure the problems are solved and Business needs are met.Happy Users ,Growing Business.",
+      title2: "User Research",
+      content2:
+        "We are constantly improving the experience of users by gathering information inorder to see things through the lens of their eyes, propose solutions and test them to ensure the",
+      title3: "UI Design",
+      content3:
+        "We are constantly improving the experience of users by gathering information inorder to see things through the lens of their eyes, propose solutions and test them to ensure the",
+      title4: "Useability Testing",
+      content4:
+        "We are constantly improving the experience of users by gathering information inorder to see things through the lens of their eyes, propose solutions and test them to ensure the",
+    },
+    {
+      id: 2,
+      image: phone,
+      logo: laptop,
+      title: "Software Development",
+      content:
+        "We provide software solutions for your business needs and help you stand out, providing you with the best advice for achieving success.",
+      title2: "Backend Development",
+      content2:
+        "We create and maintain the server-side logic, systems, and databases that power web applications. We also expertise in programming, database management, API development, security, testing, and deployment",
+      title3: "Frontend Development",
+      content3:
+        "We are focused on creating  user-friendly platforms that are visual appealing and allows people to easily access information.",
+      title4: "Network Engineering",
+      content4:
+        "We help you host your Applications using the best technologies.In addition, we incorporate features that will enhance the user experience and increase your visibility, such as social media integration and search engine optimisation (SEO) techniques.",
+    },
+    {
+      id: 3,
+      image: phone,
+      logo: market,
+      title: "Marketing",
+      content:
+        "In addition to digital marketing, we also offer analytics and reporting services that provide our clients with insights into the performance of their campaigns.We track and measure key performance indicators such as website traffic, click-through rates, and conversion rates to ensure that our client's campaigns are delivering results.",
+      title2: "Search Engine Optimization",
+      content2:
+        "We ensure optimizing of Web pages and content to increase visibility in search engines and drive more organic traffic to a website.We use the latest digital marketing tools and strategies to create campaigns that target our clients' ideal customers, engage with them, and guide them towards the desired action.",
+      title3: "Email Marketing",
+      content3:
+        "We make use of newsletters, promotional emails, and other targeted messages to reach potential clients and promote products and services.",
+      title4: "Content Marketing",
+      content4:
+        "We are best at creating an effective strategy to reach target customers, understanding customer needs and preferences, and developing a plan to effectively promote products or service.",
+    },
+    // {
+    //   id:4,
+    //   image: phone,
+    //   logo: pen,
+    //   title: "Product Design",
+    //   content:
+    //     "We are constantly improving the experience of users by gathering information inorder to see things through the lens of their eyes, propose solutions and test them to ensure the problems are solved and Business needs are met.Happy Users ,Growing Business.",
+    //   title2: "User Research",
+    //   content2:
+    //     "We are constantly improving the experience of users by gathering information inorder to see things through the lens of their eyes, propose solutions and test them to ensure the",
+    //   title3: "UI Design",
+    //   content3:
+    //     "We are constantly improving the experience of users by gathering information inorder to see things through the lens of their eyes, propose solutions and test them to ensure the",
+    //   title4: "Useability Testing",
+    //   content4:
+    //     "We are constantly improving the experience of users by gathering information inorder to see things through the lens of their eyes, propose solutions and test them to ensure the",
+    // },
+  ];
   return (
     <>
-      <div className="services-container">
-        <div className="services-services">
-          <div className="services-content">
-            <span className="services-text">
-              <span>What We Do</span>
-            </span>
-            <div className="services-section">
-              <div className="services-design">
-                <div className="services-content1">
-                  <div className="services-header">
-                    <div className="services-frame5">
-                      <div className="services-iconoirdesignnib">
-                        <div className="services-group">
-                          <div className="services-clippathgroup">
-                            <div className="services-group1">
-                              <img
-                                src="/playground_assets/vectori1365-h1cg.svg"
-                                alt="VectorI1365"
-                                className="services-vector1"
-                              />
-                              <img
-                                src="/playground_assets/vectori1365-knr.svg"
-                                alt="VectorI1365"
-                                className="services-vector2"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <span className="services-text02">
-                        <span>Product Design</span>
-                      </span>
-                    </div>
-                    <img
-                      src="/playground_assets/arrow1i1365-rr6p.svg"
-                      alt="Arrow1I1365"
-                      className="services-arrow1"
-                    />
-                  </div>
-                  <div className="services-maincontent">
-                    <div className="services-text04">
-                      <div className="services-summary">
-                        <div className="services-texttext">
-                          <span className="services-text05">
-                            <span>
-                              We are constantly improving the experience of
-                              users by gathering information inorder to see
-                              things through the lens of their eyes, propose
-                              solutions and test them to ensure the problems are
-                              solved and Business needs are met.Happy Users
-                              ,Growing Business.
-                              <span />
-                            </span>
-                          </span>
-                        </div>
-                      </div>
-                      <div className="services-subservices">
-                        <div className="services-expanditem">
-                          <div className="services-header1">
-                            <div className="services-texttext1">
-                              <span className="services-text07">
-                                <span>User Research</span>
-                              </span>
-                            </div>
-                            <img
-                              src="/playground_assets/plusi1365-9qo.svg"
-                              alt="PlusI1365"
-                              className="services-plus"
-                            />
-                          </div>
-                        </div>
-                        <div className="services-expanditem1">
-                          <div className="services-header2">
-                            <div className="services-texttext2">
-                              <span className="services-text09">
-                                <span>UI Design</span>
-                              </span>
-                            </div>
-                            <img
-                              src="/playground_assets/plusi1365-rij.svg"
-                              alt="PlusI1365"
-                              className="services-plus1"
-                            />
-                          </div>
-                        </div>
-                        <div className="services-expanditem2">
-                          <div className="services-header3">
-                            <div className="services-texttext3">
-                              <span className="services-text11">
-                                <span>Useability Testing</span>
-                              </span>
-                            </div>
-                            <img
-                              src="/playground_assets/plusi1365-zfiv.svg"
-                              alt="PlusI1365"
-                              className="services-plus2"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="services-action">
-                      <button className="services-button">
-                        <div className="services-iconwrapper">
+      <div className="service-container" id="Service">
+        <div className="service-head">
+          <span>What We Do</span>
+        </div>
+        <div className="service-body">
+          {details.map((val, indexed) => {
+            return (
+              <>
+                <div className="services">
+                  <div className="service-holder">
+                    <div className="service-hold-left">
+                      <div
+                        className="service-top"
+                        onClick={() => toggle(indexed)}
+                      >
+                        <div className="services-left">
                           <img
-                            src="/playground_assets/unioni1365-916.svg"
-                            alt="UnionI1365"
-                            className="services-union"
+                            src={val.logo}
+                            alt="logo"
+                            className="serivce-logo"
                           />
                         </div>
-                        <span className="services-text13">
-                          <span>Grow Your Business Now</span>
-                        </span>
-                      </button>
+                        <div className="services-right">
+                          <span>{val.title}</span>
+                        </div>
+                      </div>
+                      <div
+                        className={
+                          clicked === indexed
+                            ? "service-bottom"
+                            : "service-hide"
+                        }
+                      >
+                        <div className="service-bottom-img">
+                          <img
+                            src={arrow}
+                            alt="arrow"
+                            className="service-arrow"
+                          />
+                        </div>
+                        <p className="service-content">
+                          We are constantly improving the experience of users by
+                          gathering information inorder to see things through
+                          the lens of their eyes, propose solutions and test
+                          them to ensure the problems are solved and Business
+                          needs are met.Happy Users ,Growing Business
+                        </p>
+                        <div className="service-subcontain">
+                          <div className="subcontain">
+                            <div
+                              className="subcontain-top"
+                              onClick={() => {
+                                handleClick(indexed);
+                              }}
+                            >
+                              <span>{val.title2}</span>
+                              <div>
+                                <img src={plus} alt="plus" className="plus" />
+                              </div>
+                            </div>
+                            <div
+                              className={
+                                hide === indexed
+                                  ? "subcontain-bottom"
+                                  : "subcontain-hide"
+                              }
+                            >
+                              <p>{val.content2}</p>
+                            </div>
+                          </div>
+                          <div className="subcontain">
+                            <div
+                              className="subcontain-top"
+                              onClick={() => {
+                                handleClicked(indexed);
+                              }}
+                            >
+                              <span>{val.title3}</span>
+                              <div>
+                                <img src={plus} alt="plus" className="plus" />
+                              </div>
+                            </div>
+                            <div
+                              className={
+                                hided === indexed
+                                  ? "subcontain-bottom"
+                                  : "subcontain-hide"
+                              }
+                            >
+                              <p>{val.content3}</p>
+                            </div>
+                          </div>
+                          <div className="subcontain">
+                            <div
+                              className="subcontain-top"
+                              onClick={() => {
+                                handleClicker(indexed);
+                              }}
+                            >
+                              <span>{val.title4}</span>
+                              <div>
+                                <img src={plus} alt="plus" className="plus" />
+                              </div>
+                            </div>
+                            <div
+                              className={
+                                hider === indexed
+                                  ? "subcontain-bottom"
+                                  : "subcontain-hide"
+                              }
+                            >
+                              <p>{val.content4}</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button className="about-button service-button">
+                          <div className="about-iconwrapper">
+                            <img
+                              src={left}
+                              alt="UnionI1365"
+                              className="about-union"
+                            />
+                          </div>
+                          <span className="button-text service-add">
+                            Grow Your Business Now
+                          </span>
+                        </button>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <div className="services-right">
-                  <div className="services-i-phone1-pro">
-                    <img
-                      src="/playground_assets/shadowi1365-dqaf.svg"
-                      alt="ShadowI1365"
-                      className="services-shadow"
-                    />
-                    <div className="services-screenmask">
+                    <div
+                      className={
+                        clicked === indexed
+                          ? "service-hold-right"
+                          : "service-hide"
+                      }
+                    >
                       <img
-                        src="/playground_assets/screendesignreplacemei1365-s3uu-300w.png"
-                        alt="ScreendesignReplacemeI1365"
-                        className="services-screendesign-replaceme"
+                        src={val.image}
+                        alt="image"
+                        className="image-right"
                       />
                     </div>
-                    <img
-                      src="/playground_assets/goldi1365-l34f-300w.png"
-                      alt="GoldI1365"
-                      className="services-gold"
-                    />
                   </div>
                 </div>
-              </div>
-              <div className="services-web">
-                <div className="services-header4">
-                  <div className="services-frame51">
-                    <div className="services-iconoircomputer">
-                      <div className="services-group2">
-                        <img
-                          src="/playground_assets/vectori1365-pp04.svg"
-                          alt="VectorI1365"
-                          className="services-vector3"
-                        />
-                        <img
-                          src="/playground_assets/vectori1365-99vx.svg"
-                          alt="VectorI1365"
-                          className="services-vector4"
-                        />
-                      </div>
-                    </div>
-                    <span className="services-text15">
-                      <span>Software Development</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="services-brand">
-                <div className="services-header5">
-                  <div className="services-frame52">
-                    <img
-                      src="/playground_assets/dashiconsarti1365-084x.svg"
-                      alt="dashiconsartI1365"
-                      className="services-dashiconsart"
-                    />
-                    <span className="services-text17">
-                      <span>Brand Design and Graphics</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="services-marketing">
-                <div className="services-header6">
-                  <div className="services-frame53">
-                    <div className="services-iconoirgraphup">
-                      <div className="services-group3">
-                        <img
-                          src="/playground_assets/vectori1365-q6w8.svg"
-                          alt="VectorI1365"
-                          className="services-vector5"
-                        />
-                        <img
-                          src="/playground_assets/vectori1365-kp59.svg"
-                          alt="VectorI1365"
-                          className="services-vector6"
-                        />
-                      </div>
-                    </div>
-                    <span className="services-text19">
-                      <span>Marketing</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="services-container-2">
-        <div className="span-service-1">
-          <span className="services-span">What We Do</span>
-        </div>
-
-        <div className="product-service-container">
-          <div className="product-service-2-container">
-            <div className="services-group-product">
-              <img
-                src="/playground_assets/vectori1365-h1cg.svg"
-                alt="VectorI1365"
-                className="product-vector1"
-              />
-              <img
-                src="/playground_assets/vectori1365-knr.svg"
-                alt="VectorI1365"
-                className="product-vector2"
-              />
-            </div>
-            <div className="services-text023">
-              <span>Product Design</span>
-            </div>
-          </div>
-        </div>
-
-        <div className="product-service-container software-service-container">
-          <div className="product-service-2-container">
-            <div className="services-group-product">
-              <img
-                src="/playground_assets/vectori1365-pp04.svg"
-                alt="VectorI1365"
-                className="services-vector3"
-              />
-              <img
-                src="/playground_assets/vectori1365-99vx.svg"
-                alt="VectorI1365"
-                className="services-vector4"
-              />
-            </div>
-            <div className="services-text023 sfd">
-              <span>Software Development</span>
-            </div>
-          </div>
-        </div>
-
-        <div className="product-service-container software-service-container">
-          <div className="product-service-2-container">
-            <div className="services-group-product-2">
-              <img
-                src="/playground_assets/dashiconsarti1365-084x.svg"
-                alt="dashiconsartI1365"
-                className="services-dash"
-              />
-            </div>
-            <div className="services-text023">
-              <span>Brand Design and Graphics</span>
-            </div>
-          </div>
-        </div>
-
-        <div className="product-service-container software-service-container">
-          <div className="product-service-2-container">
-            <div className="services-group-product">
-              <img
-                src="/playground_assets/vectori1365-q6w8.svg"
-                alt="VectorI1365"
-                className="services-vector5"
-              />
-              <img
-                src="/playground_assets/vectori1365-kp59.svg"
-                alt="VectorI1365"
-                className="services-vector6"
-              />
-            </div>
-            <div className="services-text023 market">
-              <span>Marketing</span>
-            </div>
-          </div>
+              </>
+            );
+          })}
         </div>
       </div>
     </>
