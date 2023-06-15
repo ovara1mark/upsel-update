@@ -4,6 +4,8 @@ import eventParty from "../../../assets/eventParty.png";
 import pie from "../../../assets/pie.png";
 import whitePic from "../../../assets/whitePic.png";
 import twoBulb from "../../../assets/two-bulb.png";
+import * as Scroll from "react-scroll";
+import { Link } from "react-scroll";
 
 export const HeroSectionThree = () => {
   return (
@@ -23,7 +25,15 @@ export const HeroSectionThree = () => {
               having a strong online presence is crucial to the success of any
               business, and we are here to help you achieve just that.
             </p>
-            <button className="t-l-button">Contact Us Now</button>
+            <Link
+              to="ContactUs"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              <button className="t-l-button">Contact Us Now</button>
+            </Link>
           </div>
           <div className="landing-top-right">
             <img src={eventParty} alt="eventParty" className="event-party" />

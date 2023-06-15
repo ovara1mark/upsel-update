@@ -1,5 +1,7 @@
 import react from "react";
 import "./hero-section.css";
+import * as Scroll from "react-scroll";
+import { Link } from "react-scroll";
 
 export const HeroSection = (props) => {
   return (
@@ -219,11 +221,19 @@ export const HeroSection = (props) => {
               </span>
             </span>
           </div>
-          <button className="hero-section-button">
-            <span className="hero-section-text16">
-              <span>Contact Us Now</span>
-            </span>
-          </button>
+          <Link
+            to="ContactUs"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            <button className="hero-section-button">
+              <span className="hero-section-text16">
+                <span>Contact Us Now</span>
+              </span>
+            </button>
+          </Link>
         </div>
         <div className="hero-section-indicator">
           <img

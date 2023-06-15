@@ -10,6 +10,8 @@ import arrow5 from "../../../assets/arrow5.svg";
 import arrow6 from "../../../assets/arrow6.svg";
 import image from "../../../assets/image.png";
 import "./process.css";
+import * as Scroll from "react-scroll";
+import { Link } from "react-scroll";
 
 export const Process = () => {
   const processDetail = [
@@ -71,16 +73,26 @@ export const Process = () => {
                     by providing you with excellent technology and
                     knowledgeable, friendly customer service.
                   </p>
-                  <button className="about-button">
-                    <div className="about-iconwrapper">
-                      <img
-                        src={arrow}
-                        alt="UnionI1365"
-                        className="about-union"
-                      />
-                    </div>
-                    <span className="button-text">Grow Your Business Now</span>
-                  </button>
+                  <Link
+                    to="ContactUs"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                  >
+                    <button className="about-button">
+                      <div className="about-iconwrapper">
+                        <img
+                          src={arrow}
+                          alt="UnionI1365"
+                          className="about-union"
+                        />
+                      </div>
+                      <span className="button-text">
+                        Grow Your Business Now
+                      </span>
+                    </button>
+                  </Link>
                 </div>
                 <div className="top-2-c">
                   <img src={arrow3} alt="arrow" className="arrow3" />
@@ -107,7 +119,7 @@ export const Process = () => {
               </div>
             </div>
             <div className="ourprocess-top-bottom-2">
-              <img src={image} alt="image" className="image"/>
+              <img src={image} alt="image" className="images" />
             </div>
           </div>
           <div className="ourprocess-heading">

@@ -16,7 +16,7 @@
   display: flex;
   align-items: flex-start;
   border-color: transparent;
-  background-color: var(--bg-black-2);
+  background-color: white;
 }
 .navbanner-right {
   /* border: 1px solid blue; */
@@ -79,6 +79,107 @@
   text-decoration: none;
 }
 
+.hi-menu {
+  font-size: 29px;
+  color: rgba(55, 39, 114, 1);
+  font-style: normal;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.hi-menu:hover {
+  color: rgba(88, 166, 180, 1);
+}
+
+.logo {
+  width: 20%;
+}
+
+.active {
+  color: rgba(88, 166, 180, 1);
+}
+
+.active2 {
+  color: white;
+}
+.navbanner-right-2 {
+  display: none;
+}
+
+.navbanner-right-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbanner-left-3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  padding-top: 1rem;
+}
+
+.hide {
+  visibility: hidden;
+  transform: translateX(-100%);
+  opacity: 1;
+  position: fixed;
+  z-index: 9999999999999999999;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: opacity 1s cubic-bezier(0.6, 0.1, 0.68, 0.53),
+    transform 1s cubic-bezier(0.6, 0.1, 0.68, 0.53);
+}
+
+.show {
+  visibility: show;
+  position: fixed;
+  z-index: 9999999999999999999;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(51, 51, 51, 0.5);
+  /* -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease; */
+  transform: translateX(0%);
+  opacity: 1;
+  transition: opacity 0.4s cubic-bezier(0.6, 0.1, 0.68, 0.53),
+    transform 0.4s cubic-bezier(0.6, 0.1, 0.68, 0.53);
+
+  /* -webkit-transition: all 0.6s cubic-bezier(0.6, 0.1, 0.68, 0.53) 0.4s;
+  transition: all 0.6s cubic-bezier(0.6, 0.1, 0.68, 0.53) 0.4s; */
+}
+
+.drop-menu-- {
+  width: 40%;
+  height: 100vh;
+  background-color: white;
+  transform: translateX(-100%);
+  visibility: hidden;
+}
+
+.drop-menu-child {
+  width: 70%;
+  height: 100vh;
+  visibility: visible;
+  background-color: white;
+  transform: translateX(0%);
+  opacity: 1;
+  transition: opacity 1s cubic-bezier(0.6, 0.1, 0.68, 0.53),
+    transform 1s cubic-bezier(0.6, 0.1, 0.68, 0.53);
+}
+
+.show,
+.drop-menu-child {
+  display: none;
+}
+.drop-btn {
+  margin-bottom: 1.5rem;
+}
+
 @media screen and (max-width: 1050px) {
   .navbanner-right {
     display: flex;
@@ -92,6 +193,15 @@
 @media screen and (max-width: 980px) {
   .navbanner-right {
     display: none;
+  }
+
+  .navbanner-right-2 {
+    display: block;
+  }
+
+  .show,
+  .drop-menu-child {
+    display: block;
   }
 }
 

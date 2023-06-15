@@ -1,6 +1,7 @@
 .fa-section-container {
   min-height: 100vh;
-  background-color: #FFF9F3;
+  padding: 5rem 112px 16px 64px;
+  background-color: #fff9f3;
 }
 .fa-section-fa-section {
   /* width: 100%;
@@ -21,7 +22,7 @@
   border-color: transparent;
   flex-direction: column;
 }
-.fa-section-text  {
+.fa-section-text {
   color: #372772;
   font-size: 2.1rem;
   align-self: auto;
@@ -38,11 +39,11 @@
   align-items: center;
   margin-bottom: 40px;
 }
-.fa-search-input{
+.fa-search-input {
   width: 360px;
   height: 40px;
   border-radius: 4px 0 0 4px;
-  border:1px solid rgba(207, 203, 221, 1);
+  border: 1px solid rgba(207, 203, 221, 1);
   outline: 0;
   padding-left: 12px;
   font-size: 1rem;
@@ -54,7 +55,7 @@
   align-self: stretch;
   box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.0430000014603138);
   align-items: center;
-  border:1px solid rgba(55, 39, 114, 1);
+  border: 1px solid rgba(55, 39, 114, 1);
   background-color: rgba(55, 39, 114, 1);
   border-radius: 0 2px 2px 0;
   justify-content: center;
@@ -441,17 +442,18 @@
 .font-fq {
   color: var(--btn-white);
   font-size: var(--landing-p);
+  transform: translateY(-50%) rotate(90deg);
 }
 
 .font-fq-add {
-  transform: translateY(-50%) rotate(-45deg);
+  transform: translateY(-50%) rotate(0deg);
   color: var(--btn-white);
   font-size: var(--landing-p);
   position: relative;
   top: 0.6rem;
 }
-.fq-qna{
-  border: 1px solid #BFBFBF;
+.fq-qna {
+  border: 1px solid #bfbfbf;
   margin-bottom: 15px;
 }
 .fq-holder {
@@ -511,456 +513,37 @@
 }
 /* Tab View */
 @media screen and (max-width: 1000px) {
-  .fa-section-text{
+  .fa-section-text {
     font-size: 1.5rem;
   }
-   .fa-search-input{
-    width: 260px; 
+
+  .fa-section-container {
+    padding: 5rem 32px 16px 32px;
+  }
+
+  .fa-search-input {
+    width: 260px;
   }
   .fa-section-faqcollapse {
-    width: 663px;
+    width: 100%;
   }
 }
+
 /* Mobile View */
 @media screen and (max-width: 500px) {
-  .fa-section-text{
+  .fa-section-text {
     font-size: 1rem;
   }
-  .fa-section-searchbox{
+  .fa-section-searchbox {
     width: initial;
   }
-  .fa-search-input{
+  .fa-search-input {
     width: 260px;
   }
   .fa-section-faqcollapse {
     width: 313px;
   }
-  .fq-holder{
-    padding: .9rem 1.3rem;
+  .fq-holder {
+    padding: 0.9rem 1.3rem;
   }
-
-  /* .faq-container-2 {
-    display: block;
-  }
-  .fa-section-container {
-    display: none;
-  }
-
-  .f-qmobile-f-qmobile {
-    width: 100%;
-    height: auto;
-    display: flex;
-    padding: 40px 32px 20px 32px;
-    overflow: hidden;
-    position: relative;
-    align-items: center;
-    flex-shrink: 0;
-    border-color: transparent;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #fff9f3;
-  }
-  .f-qmobile-content {
-    width: 313px;
-    display: flex;
-    padding: 40px 0;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .f-qmobile-frame528 {
-    display: flex;
-    position: relative;
-    align-self: stretch;
-    align-items: center;
-    border-color: transparent;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .f-qmobile-text {
-    color: var(--dl-color-colors_primary-primary6);
-    height: auto;
-    font-size: 16px;
-    align-self: stretch;
-    font-style: Bold;
-    text-align: center;
-    font-family: Space Grotesk;
-    font-weight: 700;
-    line-height: 40px;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 40px;
-    text-decoration: none;
-  }
-  .f-qmobile-searchbox {
-    width: 264px;
-    display: flex;
-    position: relative;
-    align-items: center;
-    flex-shrink: 0;
-    border-color: rgba(207, 203, 221, 1);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 4px;
-    margin-bottom: 40px;
-    background-color: var(--dl-color-colors_white-white13);
-  }
-  .f-qmobile-wrapper {
-    display: flex;
-    padding: 4px 12px;
-    position: relative;
-    flex-grow: 1;
-    align-items: flex-start;
-    border-color: transparent;
-    margin-right: 0px;
-  }
-  .f-qmobile-text02 {
-    display: flex;
-    padding: 1px 0;
-    overflow: hidden;
-    position: relative;
-    flex-grow: 1;
-    align-items: flex-start;
-    border-color: transparent;
-  }
-  .f-qmobile-text03 {
-    color: var(--dl-color-colors_black-black6);
-    height: auto;
-    align-self: auto;
-    text-align: left;
-    line-height: 22px;
-    margin-right: 0;
-    margin-bottom: 0;
-  }
-  .f-qmobile-button {
-    display: flex;
-    padding: 0 16px;
-    overflow: hidden;
-    position: relative;
-    align-self: stretch;
-    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.0430000014603138);
-    align-items: center;
-    border-color: rgba(55, 39, 114, 1);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 0 2px 2px 0;
-    justify-content: center;
-    background-color: var(--dl-color-colors_primary-primary6);
-  }
-  .f-qmobile-iconwrapper {
-    width: 14px;
-    height: 14px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-  }
-  .f-qmobile-union {
-    top: 1.0000849962234497px;
-    left: 1.000010371208191px;
-    width: 13px;
-    height: 13px;
-    position: absolute;
-  }
-  .f-qmobile-faqcollapse {
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    align-self: stretch;
-    align-items: flex-start;
-    border-color: transparent;
-    flex-direction: column;
-  }
-  .f-qmobile-collapseitem {
-    display: flex;
-    position: relative;
-    align-self: stretch;
-    align-items: flex-start;
-    border-color: rgba(191, 191, 191, 1);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 4px;
-    margin-bottom: 15px;
-    flex-direction: column;
-    background-color: var(--dl-color-colors_white-white1);
-  }
-  .f-qmobile-frame527 {
-    display: flex;
-    position: relative;
-    align-self: stretch;
-    align-items: flex-start;
-    border-color: transparent;
-    flex-direction: column;
-  }
-  .f-qmobile-header {
-    display: flex;
-    padding: 12px 16px;
-    position: relative;
-    align-self: stretch;
-    align-items: center;
-    flex-shrink: 0;
-    border-color: transparent;
-    margin-bottom: 0px;
-    justify-content: space-between;
-  }
-  .f-qmobile-frame526 {
-    display: flex;
-    padding: 10px 0;
-    position: relative;
-    align-items: flex-start;
-    border-color: transparent;
-    flex-direction: column;
-  }
-  .f-qmobile-texttext {
-    height: 22px;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .f-qmobile-text05 {
-    color: var(--dl-color-colors_black-black9);
-    height: auto;
-    align-self: auto;
-    text-align: left;
-    line-height: 22px;
-  }
-  .f-qmobile-downframe {
-    display: flex;
-    padding: 10px 0;
-    overflow: hidden;
-    position: relative;
-    align-items: flex-start;
-    border-color: transparent;
-  }
-  .f-qmobile-down {
-    width: 12px;
-    height: 12px;
-    position: relative;
-  }
-  .f-qmobile-content1 {
-    display: flex;
-    padding: 16px;
-    overflow: hidden;
-    position: relative;
-    align-self: stretch;
-    align-items: flex-start;
-    border-color: transparent;
-    flex-direction: column;
-  }
-  .f-qmobile-text07 {
-    display: flex;
-    padding: 10px 10px 10px 0;
-    position: relative;
-    align-self: stretch;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-  }
-  .f-qmobile-text08 {
-    color: var(--dl-color-colors_black-black9);
-    height: auto;
-    flex-grow: 1;
-    font-size: 12px;
-    align-self: auto;
-    font-style: Regular;
-    text-align: left;
-    font-family: Roboto;
-    font-weight: 400;
-    line-height: 20px;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  .f-qmobile-collapseitem1 {
-    display: flex;
-    padding: 16px;
-    position: relative;
-    align-self: stretch;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: rgba(191, 191, 191, 1);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 4px;
-    margin-bottom: 15px;
-    background-color: var(--dl-color-colors_white-white1);
-  }
-  .f-qmobile-frame530 {
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    flex-grow: 1;
-    align-items: flex-start;
-    border-color: transparent;
-    justify-content: space-between;
-    background-color: var(--dl-color-colors_white-white1);
-  }
-  .f-qmobile-texttext1 {
-    width: 150px;
-    height: 22px;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .f-qmobile-text10 {
-    color: var(--dl-color-colors_black-black9);
-    height: auto;
-    align-self: auto;
-    text-align: left;
-    line-height: 22px;
-  }
-  .f-qmobile-frame529 {
-    width: 27px;
-    display: flex;
-    padding: 5px;
-    overflow: hidden;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-    justify-content: space-between;
-    background-color: var(--dl-color-colors_white-white1);
-  }
-  .f-qmobile-right {
-    width: 12px;
-    height: 12px;
-    position: relative;
-  }
-  .f-qmobile-collapseitem2 {
-    display: flex;
-    padding: 16px;
-    position: relative;
-    align-self: stretch;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: rgba(191, 191, 191, 1);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 4px;
-    margin-bottom: 15px;
-    background-color: var(--dl-color-colors_white-white1);
-  }
-  .f-qmobile-frame5301 {
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    flex-grow: 1;
-    align-items: flex-start;
-    border-color: transparent;
-    justify-content: space-between;
-    background-color: var(--dl-color-colors_white-white1);
-  }
-  .f-qmobile-texttext2 {
-    width: 150px;
-    height: 22px;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .f-qmobile-text12 {
-    color: var(--dl-color-colors_black-black9);
-    height: auto;
-    align-self: auto;
-    text-align: left;
-    line-height: 22px;
-  }
-  .f-qmobile-frame5291 {
-    width: 27px;
-    display: flex;
-    padding: 5px;
-    overflow: hidden;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-    justify-content: space-between;
-    background-color: var(--dl-color-colors_white-white1);
-  }
-  .f-qmobile-right1 {
-    width: 12px;
-    height: 12px;
-    position: relative;
-  }
-  .f-qmobile-collapseitem3 {
-    display: flex;
-    padding: 16px;
-    position: relative;
-    align-self: stretch;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: rgba(191, 191, 191, 1);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 4px;
-    background-color: var(--dl-color-colors_white-white1);
-  }
-  .f-qmobile-frame5302 {
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    flex-grow: 1;
-    align-items: flex-start;
-    border-color: transparent;
-    justify-content: space-between;
-    background-color: var(--dl-color-colors_white-white1);
-  }
-  .f-qmobile-texttext3 {
-    width: 150px;
-    height: 22px;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .f-qmobile-text14 {
-    color: var(--dl-color-colors_black-black9);
-    height: auto;
-    align-self: auto;
-    text-align: left;
-    line-height: 22px;
-  }
-  .f-qmobile-frame5292 {
-    width: 27px;
-    display: flex;
-    padding: 5px;
-    overflow: hidden;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-    justify-content: space-between;
-    background-color: var(--dl-color-colors_white-white1);
-  }
-  .f-qmobile-right2 {
-    width: 12px;
-    height: 12px;
-    position: relative;
-  } */
 }
-
-
-

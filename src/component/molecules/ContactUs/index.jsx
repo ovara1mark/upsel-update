@@ -126,25 +126,7 @@ export const ContactUs = () => {
                               <div className="contactus-framedropdowntriggerlegacy">
                                 <div className="contactus-icon">
                                   <div className="contactus-iconwrapper">
-                                    <div className="contactus-flag">
-                                      {/* <div className="contactus-group8">
-                                      <img
-                                        src="/playground_assets/vectori1365-3rj.svg"
-                                        alt="VectorI1365"
-                                        className="contactus-vector"
-                                      />
-                                      <img
-                                        src="/playground_assets/vectori1365-sf9p.svg"
-                                        alt="VectorI1365"
-                                        className="contactus-vector1"
-                                      />
-                                      <img
-                                        src="/playground_assets/vectori1365-9v5.svg"
-                                        alt="VectorI1365"
-                                        className="contactus-vector2"
-                                      />
-                                    </div> */}
-                                    </div>
+                                    <div className="contactus-flag"></div>
                                   </div>
                                 </div>
                                 <span className="contactus-text16 H5regular">
@@ -365,25 +347,7 @@ export const ContactUs = () => {
                       <div className="contactus-framedropdowntriggerlegacy">
                         <div className="contactus-icon">
                           <div className="contactus-iconwrapper">
-                            <div className="contactus-flag">
-                              {/* <div className="contactus-group8">
-                                      <img
-                                        src="/playground_assets/vectori1365-3rj.svg"
-                                        alt="VectorI1365"
-                                        className="contactus-vector"
-                                      />
-                                      <img
-                                        src="/playground_assets/vectori1365-sf9p.svg"
-                                        alt="VectorI1365"
-                                        className="contactus-vector1"
-                                      />
-                                      <img
-                                        src="/playground_assets/vectori1365-9v5.svg"
-                                        alt="VectorI1365"
-                                        className="contactus-vector2"
-                                      />
-                                    </div> */}
-                            </div>
+                            <div className="contactus-flag"></div>
                           </div>
                         </div>
                         <span className="contactus-text16 H5regular">

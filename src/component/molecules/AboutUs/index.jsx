@@ -5,11 +5,13 @@ import jonathan from "../../../assets/jonathan-borba-hl6uG9cHW5A-unsplash.jpg";
 import tengku from "../../../assets/tengku-nadia-fz8_SONkBB8-unsplash.jpg";
 import logo from "../../../assets/logo.svg";
 import "./about.css";
+import * as Scroll from "react-scroll";
+import { Link } from "react-scroll";
 
 export const AboutUs = () => {
   return (
     <>
-      <div className="about-container">
+      <div className="about-container" id="aboutus">
         <div className="upsel-section">
           <div className="upsel-section-left">
             <span className="about-text-1">UPSEL</span>
@@ -22,12 +24,20 @@ export const AboutUs = () => {
                 the experience and knowledge to develop solutions that will make
                 you stand out in a congested online industry.
               </p>
-              <button className="about-button">
-                <div className="about-iconwrapper">
-                  <img src={arrow} alt="UnionI1365" className="about-union" />
-                </div>
-                <span className="button-text">Grow Your Business Now</span>
-              </button>
+              <Link
+                to="ContactUs"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                <button className="about-button">
+                  <div className="about-iconwrapper">
+                    <img src={arrow} alt="UnionI1365" className="about-union" />
+                  </div>
+                  <span className="button-text">Grow Your Business Now</span>
+                </button>
+              </Link>
             </div>
           </div>
           <div className="upsel-section-right">
@@ -67,9 +77,18 @@ export const AboutUs = () => {
               management and Marketing. Our mission is to support you in
               achieving your business goals and expanding your customer base.
             </p>
-            <button className="about-button-2">
-              <span className="button-text-2">Contact Us Now</span>
-            </button>
+            <Link
+              to="ContactUs"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="navbanner-text"
+            >
+              <button className="about-button-2">
+                <span className="button-text-2">Contact Us Now</span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -110,13 +129,20 @@ export const AboutUs = () => {
             We look forward to working with you and helping you take your
             business to the next level.
           </p>
-
-          <button className="about-button">
-            <div className="about-iconwrapper">
-              <img src={arrow} alt="UnionI1365" className="about-union" />
-            </div>
-            <span className="button-text">Grow Your Business Now</span>
-          </button>
+          <Link
+            to="ContactUs"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            <button className="about-button">
+              <div className="about-iconwrapper">
+                <img src={arrow} alt="UnionI1365" className="about-union" />
+              </div>
+              <span className="button-text">Grow Your Business Now</span>
+            </button>
+          </Link>
         </div>
       </div>
     </>

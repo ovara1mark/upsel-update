@@ -7,6 +7,8 @@ import plus from "../../../assets/plus.svg";
 import phone from "../../../assets/phone.png";
 import left from "../../../assets/unioni1365-916.svg";
 import "./services.css";
+import * as Scroll from "react-scroll";
+import { Link } from "react-scroll";
 
 export const Service = () => {
   const [clicked, setClicked] = useState(false);
@@ -230,18 +232,26 @@ export const Service = () => {
                             </div>
                           </div>
                         </div>
-                        <button className="about-button service-button">
-                          <div className="about-iconwrapper">
-                            <img
-                              src={left}
-                              alt="UnionI1365"
-                              className="about-union"
-                            />
-                          </div>
-                          <span className="button-text service-add">
-                            Grow Your Business Now
-                          </span>
-                        </button>
+                        <Link
+                          to="ContactUs"
+                          spy={true}
+                          smooth={true}
+                          offset={-100}
+                          duration={500}
+                        >
+                          <button className="about-button service-button">
+                            <div className="about-iconwrapper">
+                              <img
+                                src={left}
+                                alt="UnionI1365"
+                                className="about-union"
+                              />
+                            </div>
+                            <span className="button-text service-add">
+                              Grow Your Business Now
+                            </span>
+                          </button>
+                        </Link>
                       </div>
                     </div>
                     <div
