@@ -63,6 +63,11 @@
   justify-content: center;
   background-color: var(--bg-purple);
 }
+
+.logo-2 {
+  display: flex;
+  justify-content: center;
+}
 .navbanner-text2 {
   color: var(--bg-white);
   height: auto;

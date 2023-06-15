@@ -131,8 +131,8 @@ export const Navbar = () => {
                 className="navbanner-text"
                 onClick={closeMenu}
               >
-                <div className="navbanner-logo">
-                <img src={logo} alt="logo" className="logo" />
+                <div className="navbanner-logo logo-2">
+                  <img src={logo} alt="logo" className="logo" />
                 </div>
               </Link>
             </div>
