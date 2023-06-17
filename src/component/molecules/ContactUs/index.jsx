@@ -1,11 +1,11 @@
 import react, { useState } from "react";
 
-import main from "../../../assets/ellipse 5main.png";
-import brown from "../../../assets/ellipse 4brown.png";
-import green from "../../../assets/ellipse 6green.png";
-import lilac from "../../../assets/ellipse 1lilac.png";
-import lightblue from "../../../assets/ellipse 3lightblue.png";
-import purple from "../../../assets/ellipse 2purple.png";
+import main from "../../../assets/Ellipse5main.png";
+import brown from "../../../assets/Ellipse4brown.png";
+import green from "../../../assets/Ellipse6green.png";
+import lilac from "../../../assets/Ellipse1lilac.png";
+import lightblue from "../../../assets/Ellipse3lightblue.png";
+import purple from "../../../assets/Ellipse2purple.png";
 import sendIcon from "../../../assets/icon-wrapper.png";
 
 import "./contactus.css";
