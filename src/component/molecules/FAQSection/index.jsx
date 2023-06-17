@@ -7,39 +7,40 @@ import "./faq-section.css";
 export const FAQSection = () => {
   const frequently = [
     {
-      title: "This is panel header 1",
+      title: "What web development services do you offer?",
+      contentOne:
+        "We offer a range of web development services, including website design and development, e-commerce development, custom web application development, CMS development, and website maintenance and support.",
+      contentTwo: "",
+    },
+    {
+      title: " How long does it take to develop a website? ",
+      contentOne:
+        "The time it takes to develop a website varies depending on the complexity of the project. We typically provide our clients with a timeline during the planning phase, which outlines the milestones and expected delivery dates.",
+      contentTwo: "",
+    },
+    {
+      title: "Can you help with digital marketing?",
+      contentOne:
+        "Yes, we offer digital marketing services, including SEO, social media marketing, PPC advertising, email marketing, and content marketing. Our digital marketing services are designed to help our clients increase their online visibility and generate leads.",
+      contentTwo: "",
+    },
+    {
+      title: " Do you offer branding and graphic design services?",
       contentOne:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       contentTwo: "",
     },
     {
-      title: "This is panel header 1",
+      title: "Do you offer branding and graphic design services? ",
       contentOne:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Yes, we offer branding and graphic design services, including logo design, brand identity development, visual identity design, packaging design, and marketing collateral design. Our branding and design services are designed to help our clients create a unique and memorable brand identity.",
       contentTwo: "",
     },
     {
-      title: "This is panel header 1",
+      title:
+        "How do you ensure that my website is optimized for search engines? ",
       contentOne:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      contentTwo: "",
-    },
-    {
-      title: "This is panel header 1",
-      contentOne:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      contentTwo: "",
-    },
-    {
-      title: "This is panel header 1",
-      contentOne:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      contentTwo: "",
-    },
-    {
-      title: "This is panel header 1",
-      contentOne:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "We design and develop our websites with search engine optimization (SEO) in mind. This means that we follow best practices for on-page optimization, including using relevant keywords after carrying out keyword research, creating high-quality content with content pillars, and optimizing website speed and performance. We also provide ongoing SEO services to help our clients improve their search engine rankings and drive more traffic to their website",
       contentTwo: "",
     },
   ];

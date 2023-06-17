@@ -1,110 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
 
 :root {
-  --dl-color-colors_black-black3: #F5F5F5;
+  --dl-color-colors_black-black3: #f5f5f5;
   --dl-color-colors_white-white13: white;
-  --dl-color-colors_black-black12:#141414;
-  --dl-color-colors_primary-primary6:#372772;
-  --dl-color-colors_primary-primary10:#191233;
-  --dl-color-colors_white-white1:#ffffff;
-  --dl-color-colors_secondary-secondary1:#F0F9FB;
+  --dl-color-colors_black-black12: #141414;
+  --dl-color-colors_primary-primary6: #372772;
+  --dl-color-colors_primary-primary10: #191233;
+  --dl-color-colors_white-white1: #ffffff;
+  --dl-color-colors_secondary-secondary1: #f0f9fb;
 }
 
-.contact-sec{
+.contact-sec {
   display: grid;
   grid-template-columns: 50% 45%;
   gap: 10%;
   padding: 80px 64px 52px;
-  background-color: #F0F9FB;
-  
+  background-color: #f0f9fb;
 }
-.contact-lefthalf h2, .tab-cont-h2{
+.contact-lefthalf h2,
+.tab-cont-h2 {
   font-family: Space Grotesk;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 44px;
   color: var(--dl-color-colors_primary-primary6);
 }
-.tab-cont-h2{
+.tab-cont-h2 {
   display: none;
   margin-bottom: 90px;
   text-align: left;
 }
-.contact-lefthalf h5{
-    font-family: Space Grotesk;
-    font-size: 1.25rem;
-    font-weight: 500;
-    line-height: 28px;
-    color: black;
-    margin: 32px 0 14px;
+.contact-lefthalf h5 {
+  font-family: Space Grotesk;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 28px;
+  color: black;
+  margin: 32px 0 14px;
 }
-.form-cont{
+.form-cont {
   width: 80%;
 }
-.checkbox-cont div{
+.checkbox-cont div {
   display: flex;
   margin: 16px 0 6px;
+  /* border: 1px solid red; */
 }
-.checkbox-cont div::-webkit-scrollbar-thumb,
-.checkbox-cont div::-webkit-scrollbar-corner,
-.checkbox-cont div::-webkit-scrollbar-track-piece,
-.checkbox-cont div::-webkit-scrollbar-track{
-  display: none;
+
+.checkbox-cont div div {
+  margin: 16px 0px 6px 0px;
 }
-.checkboxes input{
+
+.checkboxes input {
   width: 0;
   height: 0;
 }
-.checkboxes input +label{
-  border: 1px solid #D9D9D9;
+.checkboxes input + label {
+  border: 1px solid #d9d9d9;
   padding: 2px 8px;
   background-color: white;
-  color: #454545 ;
+  color: #454545;
   border-radius: 3px;
   cursor: pointer;
   margin-right: 10px;
-
 }
-.checkboxes input:checked+label{
+.checkboxes input:checked + label {
   color: white;
   background-color: var(--dl-color-colors_primary-primary6);
 }
-.input-detail-cont input, .input-detail-cont textarea{
+.input-detail-cont input,
+.input-detail-cont textarea {
   display: block;
   width: 130%;
   height: 40px;
   margin-top: 24px;
   border-radius: 4px;
-  border: 0 ;
+  border: 0;
   padding: 8px 12px;
   outline: 0;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
-  
 }
-.input-detail-cont input::placeholder, .input-detail-cont textarea::placeholder{
+.input-detail-cont input::placeholder,
+.input-detail-cont textarea::placeholder {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
-  color: #BFBFBF;
+  color: #bfbfbf;
 }
-.input-detail-cont textarea{
-  height: 64px ;
+.input-detail-cont textarea {
+  height: 64px;
 }
-.telno{
+.telno {
   display: grid;
   grid-template-columns: 21% 78%;
   gap: 10px;
   width: 130%;
 }
-.tel-api{
+.tel-api {
   width: 100% !important;
 }
-.phone-no{
+.phone-no {
   width: 100% !important;
 }
-.contact-btn{
+.contact-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,32 +112,31 @@
   background-color: var(--dl-color-colors_primary-primary6);
   color: #ffffff;
   border: 0;
-  padding:10px;
+  padding: 10px;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
   line-height: 22px;
   margin-top: 54px;
-  
 }
-.contact-btn img{
+.contact-btn img {
   margin-right: 7px;
 }
-.contact-righthalf{
+.contact-righthalf {
   margin-top: 110px;
 }
-.righthalf-text{
+.righthalf-text {
   background-color: #ffffff57;
   width: 400px;
   height: 400px;
-  border: 1px dashed #CFCBDD;
+  border: 1px dashed #cfcbdd;
   border-radius: 100%;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.righthalf-text p{
+.righthalf-text p {
   font-family: Space Grotesk;
   font-size: 20px;
   font-weight: 500;
@@ -145,87 +144,109 @@
   color: #595959;
   width: 80%;
 }
-.anime-brown{
+.anime-brown {
   position: relative;
   bottom: 250px;
-  right:30px;
+  right: 30px;
 }
-.anime-green{
+.anime-green {
   position: relative;
   bottom: 415px;
-  left:35px;
+  left: 35px;
 }
-.anime-lilac{
+.anime-lilac {
   position: relative;
   bottom: 360px;
-  left:190px;
+  left: 190px;
 }
-.anime-purple{
+.anime-purple {
   position: relative;
-  bottom:60px;
-  right:180px;
+  bottom: 60px;
+  right: 180px;
 }
-.anime-lightblue{
+.anime-lightblue {
   position: relative;
-  bottom:120px;
-  left:140px;
+  bottom: 120px;
+  left: 140px;
 }
 
-@media screen and (max-width:1190px) {
+@media screen and (max-width: 1190px) {
   .contact-sec {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     padding: 80px 100px 52px;
+    /* border: 1px solid red; */
   }
   .contact-righthalf {
     margin-top: 80px;
+    /* border: 1px solid green; */
   }
-  .righthalf-anime{
-    transform: translateX(20%);
+  .righthalf-anime {
+    /* transform: translateX(20%); */
     margin-top: 40px;
   }
-  .tab-cont-h2{
+
+  .righthalf-contain {
+    display: flex;
+    justify-content: center;
+  }
+  .tab-cont-h2 {
     display: initial;
   }
-  .contact-lefthalf h2{
+  .contact-lefthalf h2 {
     display: none;
   }
 }
-@media screen and (max-width:1080px) {
-  .checkbox-cont{
-    overflow-x: auto;
+@media screen and (max-width: 1080px) {
+  .checkbox-cont {
+    overflow: hidden;
+    width: 90%;
   }
-  .checkbox-cont div{
+
+  .checkbox-scrollablecont {
+    display: grid;
+    overflow-x: scroll;
+    /* grid-template-columns: 30% 30% 30% 30%; */
+    overflow-y: scroll;
+    grid-column-gap: 1rem;
+  }
+
+  .checkbox-scrollablecont::-webkit-scrollbar {
+    display: none;
+  }
+
+  .checkbox-cont div {
     min-width: 150px;
   }
-  
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .righthalf-anime {
     transform: translateX(10%);
     margin-top: 50px;
   }
 }
 @media screen and (max-width: 630px) {
-   .contact-sec {
+  .contact-sec {
     padding: 80px 23px 52px 32px;
-    background-color: #FFF9F3;
+    background-color: #fff9f3;
   }
   .righthalf-anime {
-   display: none;
+    display: none;
   }
-.input-detail-cont input,
-.input-detail-cont textarea, .telno, .contact-btn {
-  width: 120%;
-}
+  .input-detail-cont input,
+  .input-detail-cont textarea,
+  .telno,
+  .contact-btn {
+    width: 120%;
+  }
   .tab-cont-h2 {
     color: black;
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: initial;
   }
-  .contact-lefthalf h5{
+  .contact-lefthalf h5 {
     font-size: 1rem;
     margin-top: 10px;
   }

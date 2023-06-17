@@ -194,19 +194,21 @@ export const ContactUs = () => {
         </div>
         <div className="contact-righthalf">
           <h2 className="tab-cont-h2">Get In Touch With Us</h2>
-          <div className="righthalf-anime">
-            <div className="righthalf-text">
-              <p>
-                We offer a wide range of services at an affordable price point,{" "}
-                <br />
-                so businesses can focus on what they do best
-              </p>
+          <div className="righthalf-contain">
+            <div className="righthalf-anime">
+              <div className="righthalf-text">
+                <p>
+                  We offer a wide range of services at an affordable price
+                  point, <br />
+                  so businesses can focus on what they do best
+                </p>
+              </div>
+              <img src={brown} className="anime-brown" alt="" />
+              <img src={green} className="anime-green" alt="" />
+              <img src={lilac} className="anime-lilac" alt="" />
+              <img src={lightblue} className="anime-lightblue" alt="" />
+              <img src={purple} className="anime-purple" alt="" />
             </div>
-            <img src={brown} className="anime-brown" alt="" />
-            <img src={green} className="anime-green" alt="" />
-            <img src={lilac} className="anime-lilac" alt="" />
-            <img src={lightblue} className="anime-lightblue" alt="" />
-            <img src={purple} className="anime-purple" alt="" />
           </div>
         </div>
       </section>

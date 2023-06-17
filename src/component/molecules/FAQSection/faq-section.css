@@ -1,5 +1,4 @@
 .fa-section-container {
-  min-height: 100vh;
   padding: 5rem 112px 16px 64px;
   background-color: #fff9f3;
 }
@@ -13,6 +12,7 @@
   /* flex-shrink: 0;
   background-color: var(--dl-color-colors_tertiary2-tertiary22);
   border-color: transparent; */
+  /* border: 1px solid black; */
 }
 .fa-section-content {
   /* width: 863px; */
@@ -470,8 +470,9 @@
 
 .fq-p-head,
 .fq-content {
-  color: #454545;
+  color: black;
   font-size: var(--landing-p);
+  font-weight: 500;
 }
 
 .fq-content {
