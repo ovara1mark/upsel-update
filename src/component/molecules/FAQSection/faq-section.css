@@ -471,8 +471,9 @@
 .fq-p-head,
 .fq-content {
   color: black;
-  font-size: var(--landing-p);
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Space Grotesk;
 }
 
 .fq-content {
