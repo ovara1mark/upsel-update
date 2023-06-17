@@ -71,7 +71,7 @@ export const Navbar = () => {
           <button className="navbanner-button">
             <Link
               activeClass="active"
-              to="/"
+              to="process"
               spy={true}
               smooth={true}
               offset={-100}
@@ -181,7 +181,7 @@ export const Navbar = () => {
             <button className="navbanner-button drop-btn">
               <Link
                 activeClass="active"
-                to="/"
+                to="process"
                 spy={true}
                 smooth={true}
                 offset={-100}

@@ -39,7 +39,7 @@ export const Process = () => {
   ];
   return (
     <>
-      <div className="ourprocess-container">
+      <div className="ourprocess-container" id="process">
         <div className="ourprocess-ourprocess">
           <div className="ourprocess-top">
             <div className="ourprocess-top-heading">

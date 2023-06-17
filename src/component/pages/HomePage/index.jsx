@@ -7,6 +7,7 @@ import {
   Process,
   Service,
   Story,
+  HeroSection,
 } from "../../molecules";
 import { PageTemplate } from "../../templates";
 import Slider from "../../organism/Slider";
@@ -15,7 +16,8 @@ export const HomePage = () => {
   return (
     <>
       <PageTemplate>
-        <Slider />
+        <HeroSection />
+        {/* <Slider /> */}
         <Story />
         <AboutUs />
         <Service />

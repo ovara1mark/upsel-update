@@ -254,7 +254,7 @@ export const Service = () => {
                         </Link>
                       </div>
                     </div>
-                    <div
+                    {/* <div
                       className={
                         clicked === indexed
                           ? "service-hold-right"
@@ -266,7 +266,7 @@ export const Service = () => {
                         alt="image"
                         className="image-right"
                       />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </>
