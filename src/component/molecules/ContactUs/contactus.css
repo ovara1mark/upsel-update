@@ -250,4 +250,9 @@
     font-size: 1rem;
     margin-top: 10px;
   }
+
+  .contact-sec {
+    padding: 0px 100px 52px;
+    padding-top: -4px;
+  }
 }
