@@ -1,4 +1,13 @@
-import react, { useState } from "react";
+import react, { useEffect, useState } from "react";
+import { toast } from "react-toastify";
+import { InlineError, Toast } from "../../atoms";
+import {
+  validateEmail,
+  validateFullName,
+  validateMessage,
+  validatePhone,
+} from "../../handlers/Validation";
+import { SendEmail, IpAddress } from "./API";
 
 import main from "../../../assets/Ellipse5main.png";
 import brown from "../../../assets/Ellipse4brown.png";
@@ -11,80 +20,71 @@ import sendIcon from "../../../assets/icon-wrapper.png";
 import "./contactus.css";
 
 export const ContactUs = () => {
-  const initialData = {
-    name: "",
-    email: "",
-    tel: "",
-    phone: "",
-    message: "",
-    budget: "",
-    checkboxes: [],
-  };
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState();
+  const [message, setMessage] = useState("");
+  const [fullNameError, setFullNameError] = useState();
+  const [emailError, setEmailError] = useState();
+  const [phoneError, setPhoneError] = useState("");
+  const [messageError, setMessageError] = useState();
+  const [loading, setLoading] = useState(true);
+  const [budget, setBudget] = useState("");
+  const [country, setCountry] = useState("");
+  const [buttonLoading, setButtonLoading] = useState(false);
+  const [send, setSend] = useState();
 
-  const [formValues, setFormValues] = useState(initialData);
+  useEffect(() => {
+    // *********** VALIDATION **********
+    validateFullName({ fullName, setFullNameError });
+    validateEmail({ email, setEmailError });
+    validatePhone({ phone, setPhoneError });
+    validateMessage({ message, setMessageError });
 
-  const handleSubmit = async (e) => {
+    // ***********
+    if (send) {
+      toast.success(send.msg);
+      setFullName("");
+      setEmail("");
+      setMessage("");
+      setBudget("");
+      setSend();
+      setPhone("");
+    }
+  }, [fullName, email, phone, message, send, budget]);
+
+  const submitHandler = (e) => {
     e.preventDefault();
-
-    try {
-      const formResponse = await fetch("/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formValues),
+    setButtonLoading(true);
+    if (!fullNameError & !emailError & !phoneError & !messageError) {
+      SendEmail({
+        fullName,
+        email,
+        phone,
+        message,
+        budget,
+        setSend,
+      }).then(() => {
+        setButtonLoading(false);
       });
-
-      if (formResponse.ok) {
-        console.log("Form submitted successfully!");
-        setFormValues(initialData);
-      } else {
-        console.log("Error submitting form.");
-      }
-    } catch (error) {
-      console.log("Error submitting form:", error);
     }
   };
 
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-
-    if (type === "checkbox") {
-      const checkboxes = formValues.checkboxes.slice();
-
-      if (checked) {
-        checkboxes.push(value);
-      } else {
-        const index = checkboxes.indexOf(value);
-        if (index !== -1) {
-          checkboxes.splice(index, 1);
-        }
-      }
-
-      setFormValues((prev) => ({
-        ...prev,
-        checkboxes: checkboxes,
-      }));
-    } else {
-      setFormValues((prev) => ({
-        ...prev,
-        [name]: value,
-      }));
-    }
-  };
   return (
     <>
+      {/* <Toast /> */}
       <section className="contact-sec" id="ContactUs">
         <div className="contact-lefthalf">
           <h2>Get In Touch With Us</h2>
           <h5>You’re interested in...</h5>
           <div className="form-cont">
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={submitHandler}>
               <div className="checkbox-cont">
                 {/* To scroll on mobile */}
                 <div className="checkbox-scrollablecont">
                   <div className="checkboxes">
                     <input
                       type="checkbox"
-                      onChange={handleChange}
                       name="checkboxes"
                       id="product-design"
                     />
@@ -93,34 +93,19 @@ export const ContactUs = () => {
                     </label>
                   </div>
                   <div className="checkboxes">
-                    <input
-                      type="checkbox"
-                      onChange={handleChange}
-                      name="checkboxes"
-                      id="web-dev"
-                    />
+                    <input type="checkbox" name="checkboxes" id="web-dev" />
                     <label htmlFor="web-dev" className="checkbox-label2">
                       Web Development
                     </label>
                   </div>
                   <div className="checkboxes">
-                    <input
-                      type="checkbox"
-                      onChange={handleChange}
-                      name="checkboxes"
-                      id="marketing"
-                    />
+                    <input type="checkbox" name="checkboxes" id="marketing" />
                     <label htmlFor="marketing" className="checkbox-label3">
                       Marketing
                     </label>
                   </div>
                   <div className="checkboxes">
-                    <input
-                      type="checkbox"
-                      onChange={handleChange}
-                      name="checkboxes"
-                      id="branding"
-                    />
+                    <input type="checkbox" name="checkboxes" id="branding" />
                     <label htmlFor="branding" className="checkbox-label4">
                       Branding
                     </label>
@@ -132,46 +117,43 @@ export const ContactUs = () => {
                   type="text"
                   placeholder="Your name"
                   name="name"
-                  id=""
-                  value={formValues.name}
-                  onChange={handleChange}
+                  value={fullName}
+                  onChange={(e) => setFullName(e.target.value)}
                   required
                 />
+                {fullNameError && <InlineError error={fullNameError} />}
                 <input
                   type="email"
                   placeholder="Your email"
-                  name="email"
-                  id=""
-                  value={formValues.email}
-                  onChange={handleChange}
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   required
                 />
+                {emailError && <InlineError error={emailError} />}
                 <div className="telno">
                   <input
                     type="tel"
-                    value={formValues.tel}
-                    onChange={handleChange}
-                    name="tel"
-                    className="tel-api"
-                    id=""
-                  />
-                  <input
-                    type="text"
-                    placeholder="Your Phone number"
-                    name="phone"
-                    id=""
+                    placeholder="country code"
                     required
                     className="phone-no"
-                    value={formValues.phone}
-                    onChange={handleChange}
+                    value={country}
+                    onChange={(e) => setCountry(e.target.value)}
+                  />
+                  <input
+                    type="tel"
+                    placeholder="Your Phone number"
+                    required
+                    className="phone-no"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
                   />
                 </div>
+                {phoneError && <InlineError error={phoneError} />}
                 <textarea
                   name="message"
                   placeholder="Tell us about your project..."
-                  value={formValues.message}
-                  onChange={handleChange}
-                  id=""
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   required
                   cols="30"
                   rows="10"
@@ -180,14 +162,18 @@ export const ContactUs = () => {
                   type="number"
                   placeholder="Project budget: (USD)"
                   name="budget"
-                  id=""
-                  value={formValues.budget}
-                  onChange={handleChange}
+                  value={budget}
+                  onChange={(e) => setBudget(e.target.value)}
                 />
               </div>
-              <button type="submit" className="contact-btn">
+              <button
+                type="submit"
+                disabled={buttonLoading && true}
+                className="contact-btn"
+              >
                 <img src={sendIcon} alt="" />
-                Send request
+
+                {buttonLoading ? "Loading.." : "Send request"}
               </button>
             </form>
           </div>

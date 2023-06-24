@@ -129,31 +129,29 @@ export const Process = () => {
           </div>
           <div className="ourprocess-upsel">
             <div className="ourprocess-frame-contain">
-              {processDetail.map((elem) => {
+              {processDetail.map((elem, ind) => {
                 return (
-                  <>
-                    <div className="ourprocess-frame">
-                      <div className="frame-content-second">
-                        <div className="ourprocess-frame-image">
-                          <img
-                            src={elem.icon}
-                            alt="image"
-                            className="ourprocess-project"
-                          />
-                        </div>
-                        <span className="ourprocess-title title-second">
-                          {elem.title}
-                        </span>
+                  <div className="ourprocess-frame" key={ind}>
+                    <div className="frame-content-second">
+                      <div className="ourprocess-frame-image">
+                        <img
+                          src={elem.icon}
+                          alt="image"
+                          className="ourprocess-project"
+                        />
                       </div>
-
-                      <div className="ourprocess-frame-content">
-                        <span className="ourprocess-title title-first">
-                          {elem.title}
-                        </span>
-                        <p className="ourprocess-paragraph">{elem.paragraph}</p>
-                      </div>
+                      <span className="ourprocess-title title-second">
+                        {elem.title}
+                      </span>
                     </div>
-                  </>
+
+                    <div className="ourprocess-frame-content">
+                      <span className="ourprocess-title title-first">
+                        {elem.title}
+                      </span>
+                      <p className="ourprocess-paragraph">{elem.paragraph}</p>
+                    </div>
+                  </div>
                 );
               })}
             </div>

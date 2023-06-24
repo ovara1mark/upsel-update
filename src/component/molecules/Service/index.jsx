@@ -124,8 +124,8 @@ export const Service = () => {
         <div className="service-body">
           {details.map((val, indexed) => {
             return (
-              <>
-                <div className="services">
+           
+                <div className="services" key={indexed}>
                   <div className="service-holder">
                     <div className="service-hold-left">
                       <div
@@ -269,7 +269,7 @@ export const Service = () => {
                     </div> */}
                   </div>
                 </div>
-              </>
+
             );
           })}
         </div>
