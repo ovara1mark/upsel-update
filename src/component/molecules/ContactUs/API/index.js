@@ -43,10 +43,11 @@ export const SendEmail = async ({
   phone,
   message,
   budget,
+  country,
   setSend,
 }) => {
   try {
-    const datas = { fullName, email, phone, message, budget };
+    const datas = { fullName, email, phone, message, budget, country };
     let res = await axios.post(`http://localhost:5000/send`, datas);
     if (res) {
       setSend(res.data);

@@ -48,10 +48,11 @@ export const ContactUs = () => {
       setEmail("");
       setMessage("");
       setBudget("");
+      setCountry("");
       setSend();
       setPhone("");
     }
-  }, [fullName, email, phone, message, send, budget]);
+  }, [fullName, email, phone, message, send, budget, country]);
 
   const submitHandler = (e) => {
     e.preventDefault();
@@ -63,6 +64,7 @@ export const ContactUs = () => {
         phone,
         message,
         budget,
+        country,
         setSend,
       }).then(() => {
         setButtonLoading(false);
