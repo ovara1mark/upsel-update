@@ -141,7 +141,7 @@ export const ContactUs = () => {
                   />
                   <input
                     type="tel"
-                    placeholder="Your Phone number"
+                    placeholder="Phone number"
                     required
                     className="phone-no"
                     value={phone}

@@ -94,7 +94,7 @@
 }
 .telno {
   display: grid;
-  grid-template-columns: 21% 78%;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
   width: 130%;
 }
@@ -255,8 +255,8 @@
     margin-top: 10px;
   }
 
-  .contact-sec {
+  /* .contact-sec {
     padding: 0px 100px 52px;
     padding-top: -4px;
-  }
+  } */
 }
