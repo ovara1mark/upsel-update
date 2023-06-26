@@ -74,7 +74,7 @@ export const ContactUs = () => {
 
   return (
     <>
-      {/* <Toast /> */}
+      <Toast />
       <section className="contact-sec" id="ContactUs">
         <div className="contact-lefthalf">
           <h2>Get In Touch With Us</h2>

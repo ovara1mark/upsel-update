@@ -11,6 +11,9 @@ import {
 } from "../../molecules";
 import { PageTemplate } from "../../templates";
 import Slider from "../../organism/Slider";
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 
 export const HomePage = () => {
   return (
@@ -22,7 +25,6 @@ export const HomePage = () => {
         <AboutUs />
         <Service />
         <Process />
-
         <FAQSection />
         <ContactUs />
         <Footer />
