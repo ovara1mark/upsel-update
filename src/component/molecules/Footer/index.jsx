@@ -130,39 +130,18 @@ export const Footer = () => {
                 <h3>Contact Us</h3>
                 <ul>
                   <li>
-                    <Link
-                      to="tel:+234-000-0000-788"
-                      spy={true}
-                      smooth={true}
-                      offset={-100}
-                      duration={500}
-                      className="foot-links"
-                    >
+                    <Link to="tel:+234-000-0000-788" className="foot-links">
                       +234-000-0000-788
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="tel:+234-000-0000-788"
-                      spy={true}
-                      smooth={true}
-                      offset={-100}
-                      duration={500}
-                      className="foot-links"
-                    >
+                    <Link to="tel:+234-000-0000-788" className="foot-links">
                       +234-000-0000-788
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="mailto:upsel@gmail.com"
-                      spy={true}
-                      smooth={true}
-                      offset={-100}
-                      duration={500}
-                      className="foot-links"
-                    >
-                      upsel@gmail.com
+                    <Link to=" upseltech@gmail.com" className="foot-links">
+                      upseltech@gmail.com
                     </Link>
                   </li>
                 </ul>
