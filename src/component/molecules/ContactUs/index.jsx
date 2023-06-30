@@ -84,7 +84,7 @@ export const ContactUs = () => {
               <div className="checkbox-cont">
                 {/* To scroll on mobile */}
                 <div className="checkbox-scrollablecont">
-                  <div className="checkboxes">
+                  <div className="checkboxes c1">
                     <input
                       type="checkbox"
                       name="checkboxes"
@@ -94,19 +94,19 @@ export const ContactUs = () => {
                       Product Design
                     </label>
                   </div>
-                  <div className="checkboxes">
+                  <div className="checkboxes c2">
                     <input type="checkbox" name="checkboxes" id="web-dev" />
                     <label htmlFor="web-dev" className="checkbox-label2">
                       Web Development
                     </label>
                   </div>
-                  <div className="checkboxes">
+                  <div className="checkboxes c3">
                     <input type="checkbox" name="checkboxes" id="marketing" />
                     <label htmlFor="marketing" className="checkbox-label3">
                       Marketing
                     </label>
                   </div>
-                  <div className="checkboxes">
+                  <div className="checkboxes c4">
                     <input type="checkbox" name="checkboxes" id="branding" />
                     <label htmlFor="branding" className="checkbox-label4">
                       Branding

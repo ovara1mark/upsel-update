@@ -172,7 +172,7 @@ export const HeroSection = (props) => {
         </div>
         <div className="hero-section-frame77">
           <img
-            src="/playground_assets/image241365-o2tk-500w.png"
+            src="/playground_assets/image24.png"
             alt="image241365"
             className="hero-section-image24"
           />
