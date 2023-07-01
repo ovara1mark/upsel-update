@@ -42,17 +42,17 @@ export const Footer = () => {
               quicker.
             </p>
             <div className="foot-icons">
-              <Link to="/">
-                <img src={upselLinkedin} alt="" />
+              <Link to="https://linkedin.com/in/weareupsel">
+                <img src={upselLinkedin} alt="linkedin logo" />
               </Link>
-              <Link to="/">
-                <img src={upselInsta} alt="" />
+              <Link to="https://instagram.com/weareupsel">
+                <img src={upselInsta} alt="instagram logo" />
               </Link>
-              <Link to="/">
-                <img src={upselFb} alt="" />
+              <Link to=" https://facebook.com/weareupsel">
+                <img src={upselFb} alt="facebook logo" />
               </Link>
-              <Link to="/">
-                <img src={upselTwitter} alt="" />
+              <Link to="https://twitter.com/weareupsel">
+                <img src={upselTwitter} alt="twitter logo" />
               </Link>
             </div>
           </div>
