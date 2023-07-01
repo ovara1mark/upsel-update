@@ -42,18 +42,18 @@ export const Footer = () => {
               quicker.
             </p>
             <div className="foot-icons">
-              <Link to="https://linkedin.com/in/weareupsel">
+              <a href="https://linkedin.com/in/weareupsel" target="_blank">
                 <img src={upselLinkedin} alt="linkedin logo" />
-              </Link>
-              <Link to="https://instagram.com/weareupsel">
+              </a>
+              <a href="https://instagram.com/weareupsel" target="_blank">
                 <img src={upselInsta} alt="instagram logo" />
-              </Link>
-              <Link to=" https://facebook.com/weareupsel">
+              </a>
+              <a href=" https://facebook.com/weareupsel" target="_blank">
                 <img src={upselFb} alt="facebook logo" />
-              </Link>
-              <Link to="https://twitter.com/weareupsel">
+              </a>
+              <a href="https://twitter.com/weareupsel" target="_blank">
                 <img src={upselTwitter} alt="twitter logo" />
-              </Link>
+              </a>
             </div>
           </div>
           <div className="footer-right">
@@ -130,19 +130,31 @@ export const Footer = () => {
                 <h3>Contact Us</h3>
                 <ul>
                   <li>
-                    <Link to="tel:+234-000-0000-788" className="foot-links">
+                    <a
+                      href="tel:+234.000.0000.788"
+                      target="_blank"
+                      className="foot-links"
+                    >
                       +234-000-0000-788
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to="tel:+234-000-0000-788" className="foot-links">
+                    <a
+                      href="tel:+234.000.0000.788"
+                      target="_blank"
+                      className="foot-links"
+                    >
                       +234-000-0000-788
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to=" upseltech@gmail.com" className="foot-links">
+                    <a
+                      href="mailto:upseltech@gmail.com"
+                      target="_blank"
+                      className="foot-links"
+                    >
                       upseltech@gmail.com
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>

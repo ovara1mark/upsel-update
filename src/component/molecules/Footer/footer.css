@@ -1,27 +1,27 @@
-:root{
-  --dl-color-colors_black-black12:#141414;
-  --dl-color-colors_primary-primary6:#372772;
-  --dl-color-colors_primary-primary10:#191233;
-  --dl-color-colors_white-white1:#ffffff;
-  --dl-color-colors_secondary-secondary1:#F0F9FB;
+:root {
+  --dl-color-colors_black-black12: #141414;
+  --dl-color-colors_primary-primary6: #372772;
+  --dl-color-colors_primary-primary10: #191233;
+  --dl-color-colors_white-white1: #ffffff;
+  --dl-color-colors_secondary-secondary1: #f0f9fb;
 }
 
-.footer-sec{
+.footer-sec {
   padding: 88px 64px 40px 64px;
   background-color: var(--dl-color-colors_secondary-secondary1);
-  border-top: 2px solid #EBE9F1;
+  border-top: 2px solid #ebe9f1;
 }
-.footer-top-wrapper{
+.footer-top-wrapper {
   display: flex;
   justify-content: space-between;
 }
-.footer-left{
+.footer-left {
   width: 500px;
 }
-.footer-logo{
+.footer-logo {
   width: 200px;
 }
-.left-txt{
+.left-txt {
   width: 335px;
   font-family: Montserrat;
   font-size: 1rem;
@@ -30,75 +30,75 @@
   margin: 22px 0 32px;
   color: var(--dl-color-colors_primary-primary10);
 }
-.foot-icons{
+.foot-icons {
   display: flex;
   justify-content: space-between;
   width: 185px;
 }
-.footer-right{
+.footer-right {
   width: 568px;
 }
-.newslet-cont{
+.newslet-cont {
   margin-bottom: 32px;
 }
-.newslet-cont span input{
+.newslet-cont span input {
   width: 320px;
   height: 38px;
   border: none;
-  outline: none;  
-  padding:8px 24px ;
+  outline: none;
+  padding: 8px 24px;
   border-radius: 4px 0 0 4px;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
   line-height: 22px;
 }
-.newslet-cont span input::placeholder{
+.newslet-cont span input::placeholder {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
   line-height: 22px;
-  color: #BFBFBF;
-
+  color: #bfbfbf;
 }
-.newslet-cont button{
+.newslet-cont button {
   height: 38px;
   padding: 8px 16px;
   background-color: var(--dl-color-colors_primary-primary6);
   border: 0;
   border-radius: 4px;
   font-family: Montserrat;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 500;
   line-height: 22px;
   letter-spacing: 0px;
-color: #ffffff;
+  color: #ffffff;
 }
-.foot-link-cont{
+.foot-link-cont {
   display: flex;
   justify-content: space-between;
 }
-.foot-link-cont h3{
+.foot-link-cont h3 {
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 500;
   line-height: 42px;
   color: var(--dl-color-colors_primary-primary6);
 }
-.foot-link-cont li{
+.foot-link-cont li {
   list-style: none;
 }
-.foot-links{
+.foot-links {
   font-family: Montserrat;
   font-size: 1rem;
   line-height: 32px;
   color: var(--dl-color-colors_primary-primary10);
   cursor: pointer;
+  text-decoration: none;
 }
-.links-right{
+.links-right {
   width: 248px;
 }
-.tc-p{
+.tc-p {
   display: flex;
   justify-content: center;
   margin: 52px 0 10px;
@@ -108,28 +108,29 @@ color: #ffffff;
   line-height: 24px;
   color: var(--dl-color-colors_primary-primary10);
 }
-.tc-p div img{
+.tc-p div img {
   margin-right: 5px;
 }
-.tc-p div span{
+.tc-p div span {
   margin-right: 8px;
 }
-.c-right{
+.c-right {
   margin-right: 40px;
 }
 @media screen and (max-width: 1000px) {
   .footer-top-wrapper {
-      display: grid;
+    display: grid;
     grid-template-columns: 50% 50%;
     /* gap: 40px; */
   }
-  .footer-right,.footer-left{
+  .footer-right,
+  .footer-left {
     width: initial;
   }
-  .newslet-cont span input{
+  .newslet-cont span input {
     width: inherit;
   }
-  .newslet-cont button{
+  .newslet-cont button {
     width: initial;
   }
 }
@@ -137,31 +138,29 @@ color: #ffffff;
   .footer-top-wrapper {
     display: initial;
   }
-  .left-txt{
+  .left-txt {
     width: 70%;
   }
-.newslet-cont span input {
-  width: 522px;
-}
-  .footer-right{
+  .newslet-cont span input {
+    width: 522px;
+  }
+  .footer-right {
     margin-top: 50px;
   }
 }
 @media screen and (max-width: 850px) {
-  
   .newslet-cont span input {
     width: 412px;
   }
 }
 @media screen and (max-width: 730px) {
-  
   .newslet-cont span input {
     width: 312px;
   }
 }
 @media screen and (max-width: 630px) {
   .footer-sec {
-      padding: 88px 32px 40px 32px;
+    padding: 88px 32px 40px 32px;
   }
   .newslet-cont span input {
     width: 100%;
@@ -170,14 +169,13 @@ color: #ffffff;
   .newslet-cont button {
     width: 100%;
   }
-  .left-txt{
-    width:100%;
+  .left-txt {
+    width: 100%;
   }
-  .foot-link-cont{
+  .foot-link-cont {
     display: initial;
   }
-  .links-right{
+  .links-right {
     margin-top: 32px;
   }
-
 }
